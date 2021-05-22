@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title> A TWOSOME PLACE </title>
+    
+<!-- jQuery 라이브러리 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        
+    
+<!---- 상단 네비게이션 & 공통 스타일(모든파일용) ---->
+<link href ="inc/nav.css" rel="stylesheet" />
+
+    
+<!--- 내비게이션용 스크립트 --->
+<script src="inc/nav.js"></script>
+    
+
+<!---- 메인 ---->
+<link href ="inc/main.css" rel="stylesheet" />
+    
+    
+<!--- 메인용 스크립트 --->
+<script src="inc/main.js"></script>
+    
+
+    
+</head>
+
+<body  onLoad="playSlide()">
+    
+    
+<!------------------------ navi ------------------------>   
+    <div id="navBox">  <!--- 100% 전체 박스(#navBox) --->
+        
+        <div id="navInBox">  <!--- 1200px 내부 박스(로고+내비 #navInBox) --->
+        
+            <div id="logo">
+                <a href="index.html">A TOWSOME PLACE</a>
+            </div>
+
+            <nav id="navi">
+
+                <button id="view">&equiv;</button>
+
+
+                <ul id="menu">
+                    <li class="main">메뉴
+                        <ul class="subMenu">
+                            <li class="sub">커피 음료</li>
+                            <li class="sub">디저트</li>
+                            <li class="sub">델리</li>
+                            <li class="sub">케이크</li>
+                            <li class="sub">상품</li>
+                        </ul>
+                    </li>
+                    
+                    <li class="main">SNS
+                        <ul class="subMenu">
+                            <li class="sub">페이스북</li>
+                            <li class="sub">인스타그램</li>
+                        </ul>                
+                    </li>
+                    
+                    <li class="main">주문
+                        <ul class="subMenu">
+                            <li class="sub">매장찾기</li>
+                        </ul>                
+                    </li>
+                    
+                    <li class="main">이벤트
+                        <ul class="subMenu">
+                            <li class="sub">진행중 이벤트</li>
+                            <li class="sub">종료된 이벤트</li>
+                        </ul>                
+                    </li>
+                      
+                    <li class="main">브랜드
+                        <ul class="subMenu">
+                            <li class="sub">매장찾기</li>
+                            <li class="sub">브랜드이야기</li>
+                            <li class="sub">커피이야기</li>
+                            <li class="sub">브랜드 필름</li>
+                            <li class="sub">가맹문의</li>
+                        </ul>                
+                    </li>
+                      
+                    <li class="main">로그인
+                        <ul class="subMenu">
+                            <li class="sub">로그인</li>
+                            <li class="sub">회원가입</li>
+                        </ul>                
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+            
+        </div>    <!--- 1200px 내부 박스(로고+내비 #navInBox) --->  
+        
+    </div>  <!--- 100% 전체 박스(#navBox) --->
+    
+    <div id="blackBox"></div>
+    
+    
+<!------------------------ header ------------------------>     
+    <div id="header">
+    
+        <div id="hBox">
+            <img src="images/main11.jpg" alt="메인이미지" class="hslide"/>
+            <img src="images/main22.jpg" alt="메인이미지" class="hslide" />
+        </div>  <!--- #hBox --->
+        
+        <div id="circleBox">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        
+        <button class="button left">&lang;</button>
+        <button class="button right">&rang;</button>
+        
+    </div>  <!---- #header --->
+     
+    
+    
+<!------------------------ sec1 ------------------------>  
+    <div id="sec1">
+        <div id="inbox1">
+            <div id="imgbox1">
+                <img src="images/event.png" alt="이미지" />
+                <div id="textbox1">이벤트</div>
+            </div>
+            
+        </div>  <!---- #inbox1 --->
+        
+        <div id="inbox1">
+            <div id="imgbox1">
+                <img src="images/order.png" alt="이미지" />
+                <div id="textbox1">온라인주문</div>
+            </div>     
+            
+        </div>  <!---- #inbox1 --->
+        
+        <div id="inbox1">
+            <div id="imgbox1">
+                <img src="images/chart.png" alt="이미지" />
+                <div id="textbox1">영양성분표</div>
+            </div>   
+        </div>  <!---- #inbox1 --->
+        
+        <div id="inbox1">
+            <div id="imgbox1">
+                <img src="images/map.png" alt="이미지" />
+                <div id="textbox1">매장찾기</div>
+            </div>   
+            
+        </div>  <!---- #inbox1 --->
+ 
+    </div>  <!---- #sec1 --->
+    
+    
+    
+   <!------------------------ sec2 ------------------------>  
+    <div id="outbox">
+        
+        <div id="sec2">
+            <div id="inbox2">
+                <div id="imgbox2">
+                    <img src="images/icecoffee.png" alt="이미지" /> 
+                    <div id="textbox2">아이스커피</div>                               
+                </div>
+            </div>  <!---- #inbox2 --->
+
+            <div id="inbox2">
+                <div id="imgbox2">
+                    <img src="images/coldbrew.png" alt="이미지" />
+                    <div id="textbox2">콜드브루 라떼</div> 
+                </div>
+
+            </div>  <!---- #inbox2 --->
+
+            <div id="inbox2">
+                <div id="imgbox2">
+                    <img src="images/icecrem.png" alt="이미지" />
+                    <div id="textbox2">아이스크림 카페라떼</div>
+                </div>
+
+            </div>  <!---- #inbox2 --->   
+
+            <div id="inbox2">
+                <div id="imgbox2">
+                    <img src="images/dalgo.png" alt="이미지" />
+                    <div id="textbox2">달고나 카페 라떼</div>
+                </div>
+
+            </div>
+
+        </div>  <!---- #sec2 --->
+        
+   <!------------------------ sec3 ------------------------>  
+        <div id="sec3">
+            <div id="inbox3">
+                <div id="imgbox3">
+                    <img src="images/bing1.png" alt="이미지" />
+                    <div id="textbox3">베리바 요거 케이크 빙수</div>
+                </div>
+
+            </div>  <!---- #inbox3 --->
+
+            <div id="inbox3">
+                <div id="imgbox3">
+                    <img src="images/bing2.png" alt="이미지" />
+                    <div id="textbox3">밀크바 팥빙수</div>
+                </div>
+
+            </div>  <!---- #inbox3 --->
+
+            <div id="inbox3">
+                <div id="imgbox3">
+                    <img src="images/bing3.png" alt="이미지" />
+                    <div id="textbox3">옥수수바 팝콘 빙수</div>
+                </div>
+
+            </div>  <!---- #inbox3 --->   
+
+            <div id="inbox3">
+                <div id="imgbox3">
+                    <img src="images/bing4.png" alt="이미지" />
+                    <div id="textbox3">베리바 망고 빙수</div>
+                </div>
+
+            </div>  <!---- #inbox3 --->
+
+        </div>  <!---- #sec3 --->
+        
+   <!------------------------ sec4 ------------------------>  
+        <div id="sec4">
+            <div id="inbox4">
+                <div id="imgbox4">
+                    <img src="images/cake1.png" alt="이미지" />
+                    <div id="textbox4">커스터드 크림 다쿠아즈</div> 
+                </div>
+
+            </div>  <!---- #inbox4 --->
+
+            <div id="inbox4">
+                <div id="imgbox4">
+                    <img src="images/cake3.png" alt="이미지" />
+                    <div id="textbox4">우리쌀 베리 무스</div>
+                </div>
+
+            </div>  <!---- #inbox4 --->
+
+            <div id="inbox4">
+                <div id="imgbox4">
+                    <img src="images/maca1.png" alt="이미지" />
+                    <div id="textbox4">망고 트로피컬 마카롱</div>
+                </div>
+
+            </div>  <!---- #inbox4 --->
+
+            <div id="inbox4">
+                <div id="imgbox4">
+                    <img src="images/maca2.png" alt="이미지" />
+                    <div id="textbox4">피스타치오 마카롱</div>
+                </div>
+
+            </div>  <!---- #inbox4 --->
+
+        </div>  <!---- #sec4 --->
+        
+    </div>  <!---- #outbox --->
+    
+    
+  
+ <!------------------------ sec5 ------------------------>  
+    <div id="sec5">
+        <div id="box5">
+            <div id="inbox5">
+                
+                <div id="imgbox5-1">  
+                <iframe width="460" height="259" src="https://www.youtube.com/embed/8vMRtiU9638" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div id="imgbox5-2">
+                <iframe width="460" height="259" src="https://www.youtube.com/embed/1QVlgGcNPs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>  <!---- #inbox5 --->
+        </div>  <!---- #box5 --->
+    </div>  <!---- #sec5 --->
+    
+    
+      
+ <!------------------------ sec6 ------------------------>  
+    <div id="sec6">
+        <div id="inbox6">
+            <div id="imgbox6">
+                <img src="images/join.jpg" alt="이미지" />
+                <div id="caption6"></div>
+                <div id="textbox6"><p class="text1">TWOSOME PLACE와 함께해요</p>
+                    <p class="text2">가맹정보</p>
+                    <p class="text3">가맹문의</p>
+                </div>
+            </div>
+        </div>  <!---- #inbox6 --->
+    </div>
+
+    
+    
+   <!------------------------ sec7 ------------------------>  
+    <div id="sec7">
+        <div id="inbox7">
+            <div id="imgbox7">
+                <img src="images/facebook.png" alt="이미지" />
+                <div id="textbox7">페이스북</div>
+            </div>
+            
+        </div>  <!---- #inbox7 --->
+        
+        <div id="inbox7">
+            <div id="imgbox7">
+                <img src="images/insta.png" alt="이미지" />
+                <div id="textbox7">인스타그램</div>
+            </div>
+            
+        </div>  <!---- #inbox7 --->
+        
+        <div id="inbox7">
+            <div id="imgbox7">
+                <img src="images/cj.png" alt="이미지" />
+                <div id="textbox7">CJ멤버십</div>
+            </div>
+            
+        </div>  <!---- #inbox7 --->
+        
+        <div id="inbox7">
+            <div id="imgbox7">
+                <img src="images/card.jpg" alt="이미지" />
+                <div id="textbox7">제휴카드</div>
+            </div>
+            
+        </div>  <!---- #inbox7 --->
+
+    </div>  <!---- #sec7 --->
+    
+    
+
+   <!------------------------ footer ------------------------>  
+    <div id="footer">
+        <div id="finbox">
+            <div id="text4">
+                서울 특별시 중구 을지로 170, 8층(을지로4가, 을지로트윈타워)<br /> 투썸플레이스(주)</div>
+            <div id="text5">고객센터 : 1577 - 4410<br />
+                통신판매업종신고중 : 제 2018 - 서울중구 - 0353호</div>
+        </div>
+    </div>
+    
+    
+    <div id="gotop"><a href="index.html">Top</a></div>
+
+</body>
+</html>
