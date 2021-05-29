@@ -729,6 +729,10 @@ body {
         height: 80px;
     }
     
+    .imgbox7 img {
+        width:50%; height: 50%;
+    }
+    
     
     /*------------ foot ------------*/
     #text4 { 
