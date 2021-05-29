@@ -38,10 +38,12 @@ body{
     #logo { 
         width:20%; 
         height:100%;
-        font-size: 1.6rem; 
+        font-size: 1.5rem; 
         background:#D50036;
         color:#fff;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #logo>a { text-decoration:none; color:#FFF }
@@ -119,16 +121,15 @@ body{
 
 
 
-
+/*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
     #navBox { background:rgba(255,255,255,.5) }
+    
+    #navInBox { width:100% }
 
     #logo { 
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         width:30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     #navi { width:65% }
