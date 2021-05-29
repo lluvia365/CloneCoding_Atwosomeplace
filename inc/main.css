@@ -69,7 +69,7 @@ body{
 
 #blackBox {  /* 메뉴 등장 시에 보여지는 검정 배경-모바일용 */
     position: fixed; top:0; left: 0;
-   width:100%; height: 100%;
+    width:100%; height: 100%;
     background:rgba(0,0,0,.7);
     z-index:9;
     display: none;
@@ -82,7 +82,7 @@ body{
     width:100%; max-width: 1200px; 
     height:140px;
     display: flex; flex-wrap: wrap;
-    margin:auto;
+    margin:20px auto;
 }
 
 .inbox1 { 
@@ -111,6 +111,7 @@ body{
 .imgbox1>img { /* 박스안 이미지 */
     width:70%; height:70%; 
     margin:auto;
+    display: block;
 }
 
 .textbox1 {
@@ -158,12 +159,12 @@ body{
     width:100%; height:100%;
     display: flex; flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .imgbox2 img {
     height:70%;
     margin:20px;
+    display: block;
 }
 
 .textbox2 {
@@ -207,13 +208,13 @@ body{
 .imgbox3 {
     width:100%; height:100%;
     display: flex; flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .imgbox3 img {
     height:70%;
     margin:20px;
+    display: block;    
 }
 
 .textbox3 {
@@ -257,13 +258,12 @@ body{
     width:100%; height:100%;
     display: flex; flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .imgbox4 img {
     height:70%;
     margin:20px;
-    
+    display: block;
 }
 
 .textbox4 {
@@ -281,7 +281,7 @@ body{
     width:100%; max-width: 1200px;
     height:400px;
     display: flex; flex-wrap: wrap;
-    margin: auto;
+    margin: 20px auto;
 }
 
 #box5 { 
@@ -414,7 +414,7 @@ body{
     width:100%; max-width: 1200px;
     height:120px;
     display: flex; flex-wrap: wrap;
-    margin:auto;
+    margin:10px auto;
 }
 
 .inbox7 { 
@@ -509,6 +509,8 @@ body{
 }
 
 
+
+
 @media screen and (max-width:500px){
     
     #header { 
@@ -522,7 +524,6 @@ body{
     top:60%; transform: translateY(-60%);
     width:30px; height:40px;
     font-size:1.3rem;
-
     }
 
     /*------------ sec1 ------------*/
@@ -545,18 +546,21 @@ body{
     
        /*------------ sec2 ------------*/        
     #outbox {
-    background-image: url('../images/secbackmini.png');
-    background-size: cover;
+        background-image: url('../images/secbackmini.png');
+        background-size: cover;
     }
     
     #sec2{
         width:100%; height: 600px;
+        margin-top:10px;
     }
     
     .inbox2 {
         width:30%; height: 45%;
         margin:0 30px;        
     }
+    
+    .inbox2:nth-child(3n) { display: none }    
     
     .imgbox2 {
         width:100%;
@@ -569,6 +573,7 @@ body{
         font-size: 0.8rem; line-height: 20px;
     }
     
+    
        /*------------ sec3 ------------*/
     #sec3{
         width:100%; height: 600px;
@@ -578,6 +583,8 @@ body{
         width:30%; height: 45%;
         margin:0 30px;        
     }
+    
+     .inbox3:nth-child(3n) { display: none }
     
     .imgbox3 {
         width:100%;
@@ -590,6 +597,7 @@ body{
         font-size: 0.8rem; line-height: 20px;
     }
     
+    
        /*------------ sec4 ------------*/
     #sec4{
         width:100%; height: 600px;
@@ -599,6 +607,8 @@ body{
         width:30%; height: 45%;
         margin:0 30px;        
     }
+    
+    .inbox4:nth-child(3n) { display: none }
     
     .imgbox4 {
         width:100%;
