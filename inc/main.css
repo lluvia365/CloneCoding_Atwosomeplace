@@ -729,8 +729,16 @@ body {
         height: 80px;
     }
     
+
     .imgbox7 img {
         width:50%; height: 50%;
+        margin:10px;
+    }
+    
+    .textbox7 {
+        width:80px; height: 80px;
+        padding-top: 30px;
+        font-size: 1rem;
     }
     
     
@@ -744,6 +752,13 @@ body {
         font-size: 0.7rem; line-height: 30px;
         text-align: center;
     }
+    
+    #gotop {
+        bottom:5px;
+        right:30px;
+    }
+
+    
     
 }  /*----- @media screen -----*/
 
