@@ -145,20 +145,20 @@ body {
     text-align: center;
 }
 
-#sec2 {
-    width:100%;
-    height:400px;
-    display: flex; flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 #title {
     width:200px;
     font-size:1.5rem;  
     margin-left: 27%;
     border-top:1px solid #FFF;
     border-bottom:1px solid #FFF;
+}
+
+#sec2 {
+    width:100%;
+    height:400px;
+    display: flex; flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .inbox2 { 
