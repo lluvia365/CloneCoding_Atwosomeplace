@@ -37,7 +37,7 @@
     }
     
     
-    $(function(){
+    $(function(){  // 페이지 열릴 때
         
         // 헤더에 마우스 닿으면 슬라이드 재생 중지
         $('#header').mouseenter(function(){
@@ -64,9 +64,27 @@
             slideNo = $(this).index();  // 슬라이드 번호 맞추기
             slide(0);     // 슬라이드 변경하기
         });
-        
-        
-        
+
     });  // $(function())
+
+
+    // 화면 해상도별 슬라이드 이미지 변경
+    function imageChange(){
+        if($(window).width() < 500){  // 화면폭이 500미만일 때
+           $('.hslide').eq(0).attr('src','images/main1mini.jpg');
+           $('.hslide').eq(1).attr('src','images/main2mini.jpg');
+           }
+        else {  // 그렇지 않으면 (500이상일 때)
+            $('.hslide').eq(0).attr('src','images/main11.jpg');
+            $('.hslide').eq(1).attr('src','images/main22.jpg');
+        }
+    }
+
+    $(document).ready(imageChange());
+    $(window).resize(imageChange);
+
+
+
+
 
 
