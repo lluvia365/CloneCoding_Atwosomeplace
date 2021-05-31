@@ -99,7 +99,6 @@ body {
 
 .inbox1:last-child { margin-right:0 }
 
-
 .imgbox1 {
     width:120px;
     height:120px;
@@ -108,13 +107,18 @@ body {
     display: flex; flex-wrap: wrap;
 }
 
+.imgbox1>a {
+    text-decoration:none;
+    color:#FFF;
+}
+
 .imgbox1:hover { 
     transform:scale(1.1, 1.1);
     color:rgba(198,60,63,.8);
 }
 
-.imgbox1>img { /* 박스안 이미지 */
-    width:70%; height:70%; 
+.imgbox1>a>img { /* 박스안 이미지 */
+    width:80%; height:80%; 
     margin:auto;
     display: block;
 }

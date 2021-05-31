@@ -91,6 +91,11 @@ body{
         cursor: pointer;
         transition:.3s;
     }
+
+    .sub>a {
+        text-decoration:none;
+        color:#FFF;
+    }
     
     .sub:hover {
         color:#FFF; background: rgba(198,60,63,.9);
