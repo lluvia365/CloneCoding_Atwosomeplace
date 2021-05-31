@@ -118,7 +118,7 @@ body {
 }
 
 .imgbox1>a>img { /* 박스안 이미지 */
-    width:80%; height:80%; 
+    width:85%; height:85%; 
     margin:auto;
     display: block;
 }
@@ -147,7 +147,8 @@ body {
 
 #titleBox {
     width:100%;
-    line-height:50px; 
+    line-height:40px; 
+    padding-top:20px;
     color:#FFF;
     text-align: center;
 }
