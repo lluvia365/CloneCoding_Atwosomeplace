@@ -569,7 +569,7 @@ body {
     }
 
     /*------------ sec1 ------------*/
-    #sec1 { height: 100px }
+    #sec1 { height: 100px; margin:10px auto }
     
     .inbox1 { 
         width:25%; 
@@ -577,7 +577,7 @@ body {
     }
     
     .imgbox1 { 
-        width:90px; height:90px;
+        width:80px; height:80px;
     }
     
     .imgbox1>img { width:70%; height: 70% }
