@@ -123,7 +123,9 @@ body{
 
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
-    #navBox { background:rgba(255,255,255,.5) }
+    #navBox { 
+        background:rgba(255,255,255,.5);
+    }
     
     #navInBox { width:100% }
 
