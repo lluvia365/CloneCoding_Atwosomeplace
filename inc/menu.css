@@ -13,31 +13,67 @@ body {
 
 
 #container {
-    width:100%;
+    width:100%; max-width: 1200px;
     height: 100%;
     padding-top:50px;
-    background:gray;
+    margin:auto;
 }
 
 #titleBox {
-    width:100%; max-width:1200px;
+    width:100%;
     margin: auto;
     padding:10px 0;
+    
+    background:orange;
 }
 
 #title {
-    line-height: 4rem;
+    width:250px;
+    line-height: 3.5rem;
     font-size:1.8rem;
-    padding-left:20px;
+    text-align: center;
+    margin-left:20px;
     color:#FFF;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
 
 
+#contentsBox {
+    width:100%;
+    height: 800px;
+    padding-top: 20px;
+    display: flex;
+    
+    background:yellow;
+}
 
+.inBox{
+    width:20%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    
+    background:green;
+}
 
+.imgBox {
+    width:80%;
+    height:100%;
+    
+    border:1px solid red;
+}
 
+.imgBox>img {
+    height:90%;
+    display: block;
+}
+
+.textBox {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 40px;
+}
 
 
 
