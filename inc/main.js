@@ -80,7 +80,7 @@
         }
     }
 
-    $(document).ready(imageChange());
+    $(document).ready(imageChange);
     $(window).resize(imageChange);
 
 
