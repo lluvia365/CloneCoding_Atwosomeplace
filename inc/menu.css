@@ -23,9 +23,7 @@ body {
 #titleBox {
     width:100%;
     margin: auto;
-    padding:10px 0;
-    
-    background:orange;
+    padding:20px 0;
 }
 
 #title {
@@ -34,7 +32,7 @@ body {
     font-size:1.8rem;
     text-align: center;
     margin-left:20px;
-    color:#FFF;
+    color:#D50036;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
@@ -44,8 +42,6 @@ body {
     width:100%;
     height: 600px;
     margin-top: 10px;
-    
-    background:yellow;
 }
 
 #sec1 {
@@ -53,8 +49,6 @@ body {
     height:50%;
     display: flex;
     margin-bottom: 10px;
-    
-    background:blue;
 }
 
 .inBox{
@@ -63,14 +57,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    background:green;
 }
 
 .imgBox {
     width:80%;
     height:100%;
     margin:auto;
-    border:1px solid red;
 }
 
 .imgBox>img {
@@ -90,8 +82,6 @@ body {
     width:100%;
     height:50%;
     display: flex;
-    
-    background:red;
 }
 
 
