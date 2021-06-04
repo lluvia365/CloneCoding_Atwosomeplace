@@ -55,49 +55,20 @@ body {
 
 #sec1 {
     width:100%;
-    height:50%;
+    height:90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
+    border:1px solid red;
 }
 
 .inBox{
-    width:18%;
-    height:90%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    border-radius: 10px;
-    background:#eee;
-    transition:.7s;
-    cursor: pointer;
+
 }
 
-.inBox:hover {
-    transform: scale(1.1,1.1) translateY(-10px);
-    background:rgba(233,59,129,.3);
-    box-shadow: 0 10px 10px rgba(0,0,0,.5);
-}
 
-.inBox:hover .textBox { color:#FFF }
 
-.imgBox {
-    width:80%;
-    height:70%;
-    margin:auto;
-}
-
-.imgBox>img {
-    height:100%;
-    display: block;
-    margin: 0 20px;
-}
-
-.textBox {
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 40px;
-    text-align: center;
-}
 
 
 #sec2 {
@@ -143,29 +114,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .inBox {
-        width:30%;
-        height: 45%;
-        margin:auto 20px;
-    }
-    
-    .imgBox {
-        width:80%;
-        height: 80%;
-    }
-    
-    .imgBox>img {
-        width:70%;
-        margin:auto;
-        display: block;
-    }
-    
-    .textBox {
-        font-size: 0.7rem;
-        line-height: 20px;
-    }
-    
+
     
     #sec2 {
         width:100%;
