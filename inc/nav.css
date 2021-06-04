@@ -132,6 +132,7 @@ body{
     background:#444;
     color:#FFF;
     display: flex; flex-wrap: wrap;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
     opacity: .8;
