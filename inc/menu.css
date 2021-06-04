@@ -59,6 +59,10 @@ body {
     margin: auto;
 }
 
+.inBox:hover {
+    background:rgba(233,59,129,.5);
+}
+
 .imgBox {
     width:80%;
     height:100%;
