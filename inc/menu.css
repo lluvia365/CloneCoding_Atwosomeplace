@@ -18,8 +18,7 @@ body {
     height: 100%;
     padding-top:50px;
     margin:auto;
-    
-
+    margin-bottom: 50px;
 }
 
 #outBox {
@@ -110,8 +109,12 @@ body {
 
 
 
-
-
-
-
-
+/*---------- 해상도 500px 이하일때 ----------*/
+@media screen and (max-width:500px){
+    
+    
+    
+    
+    
+    
+}  /*----- @media screen -----*/
