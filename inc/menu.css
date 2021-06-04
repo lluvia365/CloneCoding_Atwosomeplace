@@ -18,6 +18,16 @@ body {
     height: 100%;
     padding-top:50px;
     margin:auto;
+    
+
+}
+
+#outBox {
+    width:100%;
+    height: 100%;
+    background-image: url('../images/secback.png');
+    background-size: cover;
+    display: block;
 }
 
 #titleBox {
@@ -32,7 +42,7 @@ body {
     font-size:1.8rem;
     text-align: center;
     margin-left:20px;
-    color:#D50036;
+    color:#FFF;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
@@ -57,22 +67,33 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    border-radius: 10px;
+    background:#eee;
+    transition:.7s;
+    cursor: pointer;
 }
 
 .inBox:hover {
-    background:rgba(233,59,129,.5);
+    transform: scale(1.1,1.1) translateY(-10px);
+    background:rgba(233,59,129,.3);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
+
+.inBox:hover .textBox { color:#FFF }
 
 .imgBox {
     width:80%;
-    height:100%;
+    height:70%;
     margin:auto;
+    
+    border:1px solid green;
 }
 
 .imgBox>img {
     height:90%;
     display: block;
-    margin: auto;
+    margin: 10px 40px;
+    border:1px solid yellow;
 }
 
 .textBox {
@@ -80,7 +101,10 @@ body {
     font-weight: bold;
     line-height: 40px;
     text-align: center;
+    
+    border:1px solid red;
 }
+
 
 #sec2 {
     width:100%;
