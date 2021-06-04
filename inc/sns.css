@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+    *{box-sizing:border-box; margin:0; outline:0}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+#container {
+    width:100%; max-width: 1200px;
+    height: 100%;
+    padding-top:50px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+#outBox {
+    width:100%;
+    height: 100%;
+    background-image: url('../images/secback.png');
+    background-size: cover;
+    display: block;
+}
+
+#titleBox {
+    width:100%;
+    margin: auto;
+    padding:20px 0;
+}
+
+#title {
+    width:250px;
+    line-height: 3.5rem;
+    font-size:1.8rem;
+    text-align: center;
+    margin-left:20px;
+    color:#FFF;
+    border-top:3px solid #D50036;
+    border-bottom:3px solid #D50036;
+}
+
+
+#contentsBox {
+    width:100%;
+    height: 600px;
+    margin-top: 10px;
+}
+
+#sec1 {
+    width:100%;
+    height:50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.inBox{
+    width:18%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    background:#eee;
+    transition:.7s;
+    cursor: pointer;
+}
+
+.inBox:hover {
+    transform: scale(1.1,1.1) translateY(-10px);
+    background:rgba(233,59,129,.3);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+.inBox:hover .textBox { color:#FFF }
+
+.imgBox {
+    width:80%;
+    height:70%;
+    margin:auto;
+}
+
+.imgBox>img {
+    height:100%;
+    display: block;
+    margin: 0 20px;
+}
+
+.textBox {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+#sec2 {
+    width:100%;
+    height:50%;
+    display: flex;
+}
+
+
+
+
+/*---------- 해상도 500px 이하일때 ----------*/
+@media screen and (max-width:500px){
+    
+    #container {
+        width:100%;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #outBox {
+        background-image: url('../images/secbackmini.png');
+        background-size: cover;
+        display: block;
+    }
+    
+    #titleBox { padding:10px 0 }
+    
+    #title {
+        width:180px;
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+    
+    #contentsBox {
+        height: 610px;
+    }
+    
+    #sec1 {
+        width:100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .inBox {
+        width:30%;
+        height: 45%;
+        margin:auto 20px;
+    }
+    
+    .imgBox {
+        width:80%;
+        height: 80%;
+    }
+    
+    .imgBox>img {
+        width:70%;
+        margin:auto;
+        display: block;
+    }
+    
+    .textBox {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+    
+    
+    #sec2 {
+        width:100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    
+}  /*----- @media screen -----*/
