@@ -496,6 +496,12 @@ body {
     opacity:0;
 }
 
+
+.textbox7>a {
+    text-decoration:none;
+    color:#FFF;
+}
+
 .imgbox7:hover {
     transform:scale(1.1, 1.1);
 }
