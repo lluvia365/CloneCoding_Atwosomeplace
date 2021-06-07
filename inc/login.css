@@ -16,7 +16,7 @@ body {
 #outBox {
     width:100%;
     height: 100%;
-    background-image: url('../images/snsback.png');
+    background-image: url('../images/loginback.png');
     background-size: cover;
     display: block;    
 }
@@ -93,7 +93,7 @@ body {
     }
     
     #outBox {
-        background-image: url('../images/snsbackmini.png');
+        background-image: url('../images/loginbackmini.png');
         background-size: cover;
         display: block;
     }
