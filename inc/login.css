@@ -13,6 +13,15 @@ body {
 
 
 
+#outBox {
+    width:100%;
+    height: 100%;
+    background-image: url('../images/snsback.png');
+    background-size: cover;
+    display: block;    
+}
+
+
 #container {
     width:100%; max-width: 1200px;
     height: 100%;
@@ -21,13 +30,6 @@ body {
     margin-bottom: 50px;
 }
 
-#outBox {
-    width:100%;
-    height: 100%;
-    background-image: url('../images/snsback.png');
-    background-size: cover;
-    display: block;
-}
 
 #titleBox {
     width:100%;
@@ -49,37 +51,33 @@ body {
 
 #contentsBox {
     width:100%;
-    height: 50%;
-    margin-top: 100px;
-}
-
-#sec1 {
-    width:100%;
-    height:8px;
-    
-    background:red;
+    height:40%;
+    margin-top:100px;
+    margin-bottom: 300px;
 }
 
 
 #form1 {
-    background:#FFF;
+    width:30%;
+    height: 50%;
     padding:10px;
     font-size: 1.2rem;
 }
 
 .form1 { /* input */
-    width:70%;
+    width:100%;
     padding:10px 5px;
-    margin:5px 0;
+    margin:5px 0 20px 0;
     font-size: 1.1rem;
 }
 
 .form3 { /* submit*/
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding:5px;
     background: transparent;
     border-radius: 10px;
-    background:black;
     color:#FFF;
+    cursor: pointer;
 }
 
 

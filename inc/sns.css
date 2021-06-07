@@ -13,6 +13,15 @@ body {
 
 
 
+#outBox {
+    width:100%;
+    height: 100%;
+    background-image: url('../images/snsback.png');
+    background-size: cover;
+    display: block;
+}
+
+
 #container {
     width:100%; max-width: 1200px;
     height: 100%;
@@ -21,13 +30,6 @@ body {
     margin-bottom: 50px;
 }
 
-#outBox {
-    width:100%;
-    height: 100%;
-    background-image: url('../images/snsback.png');
-    background-size: cover;
-    display: block;
-}
 
 #titleBox {
     width:100%;
