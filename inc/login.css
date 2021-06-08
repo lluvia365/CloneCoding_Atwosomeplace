@@ -41,6 +41,7 @@ body {
     width:250px;
     line-height: 3.5rem;
     font-size:1.8rem;
+    text-shadow: 0 0 5px rgba(0,0,0,.5); /* 제자리 그림자-네온효과 */
     text-align: center;
     margin-left:20px;
     color:#FFF;
