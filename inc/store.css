@@ -250,10 +250,20 @@ body {
     .in2 { display: none }
         
     
+    .listBox { width:100% }
+    
+    .titleBox {
+        font-size:0.8rem;
+    }
+    
+    .listinBox { 
+        width:30%;
+        line-height: 1.8rem;
+        font-size: 0.6rem;
+    }
     
     
-    
-    #map { height: 50%; margin-left:20px }
+    #map { height: 50%; margin-left:0px }
     
     
 }  /*----- @media screen -----*/
