@@ -52,32 +52,29 @@ body {
 #contentsBox {
     width:100%;
     height:80%;
-    margin-top:100px;
-    margin-bottom: 300px;
+    margin:70px 0 300px 50px;
 }
 
-#contentsBox ul { list-style: none; padding:0 }
+#inBox {
+    border:2px solid #FFF;
+    background:rgba(0,0,0,.5);
+}
 
-#Nmenu { 
+#main { 
     display: flex;
-    
-}
-
-.Nmain {
-    background:rgba(0,0,0,.3);
     color:#FFF;
-    font-size: 1.2rem;
-    line-height: 3rem;
-    border:1px solid #FFF;
-    padding:5px
+    font-size:1.2rem;
 }
 
-.Nmain:hover { background:#D50036 }
-
-.NsubMenu { font-size:1rem }
-
-.Nsub { border:1px solid #FFF; padding:5px }
-
+.inmenu {
+    width:calc(100% / 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:1px solid #ccc;
+    padding:3px;
+}
 
 
 
@@ -107,7 +104,6 @@ body {
     
     #contentsBox { margin-top:0px }
     
-    #map { height: 50%; margin-left:20px }
 
     
     
