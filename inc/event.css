@@ -56,7 +56,12 @@ body {
     margin-bottom: 300px;
 }
 
-#map { width:90%; height: 330px }
+    #eventBox {
+        width:50%;
+        display: flex;
+        justify-content: center;
+    }
+
 
 
 /*---------- 해상도 500px 이하일때 ----------*/
@@ -85,7 +90,6 @@ body {
     
     #contentsBox { margin-top:0px }
     
-    #map { height: 50%; margin-left:20px }
 
     
     
