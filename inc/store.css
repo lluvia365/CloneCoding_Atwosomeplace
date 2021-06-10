@@ -99,15 +99,13 @@ body {
 .Box1:hover { 
     background:#D50036;
     transform: scale(1.1,1.1) translateY(-10px);
-    background:rgba(213,00,54);
-    box-shadow: 0 10px 10px rgba(213,00,54,.4);    
+    box-shadow: 0 5px 5px rgba(213,00,54,.3);    
 }
 
 .Box2:hover { 
     background:#D50036;
     transform: scale(1.1,1.1) translateY(-10px);
-    background:rgba(213,00,54);
-    box-shadow: 0 10px 10px rgba(213,00,54,.4);   
+    box-shadow: 0 5px 5px rgba(213,00,54,.3);   
 }
 
 
@@ -237,9 +235,14 @@ body {
     }
     
     .Box1 {
-        width:45%;
-        margin-top:10px
+        width:40%;
+        margin-top:20px
     }
+    
+    .Box1:hover { 
+    transform: scale(1.1,1.1) translateY(-10px);
+}
+    
     
     .Box1>h3 { font-size: 0.8rem }
     
