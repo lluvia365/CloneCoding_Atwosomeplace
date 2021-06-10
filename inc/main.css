@@ -184,7 +184,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
-    animation: inbox2 .7s 3s both;
+    animation: inbox2 .7s 2s both;
 }
 
 .inbox2:hover { 
@@ -251,7 +251,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
-    animation:inbox3 .7s 4s both;
+    animation:inbox3 .7s 3s both;
 }
 
 .inbox3:hover { 
@@ -327,7 +327,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
-    animation:inbox4 .7s 5s both;
+    animation:inbox4 .7s 4s both;
 }
 
 .inbox4:hover { 
