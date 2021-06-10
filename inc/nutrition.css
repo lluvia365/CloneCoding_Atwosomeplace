@@ -58,21 +58,25 @@ body {
 
 #contentsBox ul { list-style: none; padding:0 }
 
-#Nmenu { display: flex; border:1px solid #FFF }
+#Nmenu { 
+    display: flex;
+    
+}
 
 .Nmain {
     background:rgba(0,0,0,.3);
     color:#FFF;
     font-size: 1.2rem;
-    line-height: 1.5rem;
-    border:1px solid #FFF
+    line-height: 3rem;
+    border:1px solid #FFF;
+    padding:5px
 }
 
 .Nmain:hover { background:#D50036 }
 
 .NsubMenu { font-size:1rem }
 
-.Nsub { border:1px solid #FFF }
+.Nsub { border:1px solid #FFF; padding:5px }
 
 
 
