@@ -51,12 +51,30 @@ body {
 
 #contentsBox {
     width:100%;
-    height:40%;
+    height:80%;
     margin-top:100px;
     margin-bottom: 300px;
 }
 
-#map { width:90%; height: 330px }
+#contentsBox ul { list-style: none; padding:0 }
+
+#Nmenu { display: flex; border:1px solid #FFF }
+
+.Nmain {
+    background:rgba(0,0,0,.3);
+    color:#FFF;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border:1px solid #FFF
+}
+
+.Nmain:hover { background:#D50036 }
+
+.NsubMenu { font-size:1rem }
+
+.Nsub { border:1px solid #FFF }
+
+
 
 
 /*---------- 해상도 500px 이하일때 ----------*/
