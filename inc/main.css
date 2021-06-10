@@ -70,7 +70,13 @@ body {
         cursor: pointer;
     }
     
-.circle:first-child { background:#FFF } /* 첫번째 서클버튼만 흰색 */
+.circle:first-child { 
+    width:30px;
+    background:#FFF;
+    border-radius:20px;
+} /* 첫번째 서클버튼만 흰색 */
+
+
 
 #blackBox {  /* 메뉴 등장 시에 보여지는 검정 배경-모바일용 */
     position: fixed; top:0; left: 0;
@@ -80,6 +86,7 @@ body {
     display: none;
 }
     
+
 
 /*---------------------- sec1 ---------------------- */
     
@@ -136,6 +143,15 @@ body {
     background-image: url('../images/secback.png');
     background-size: cover;
 }
+
+
+@keyframes blink{
+    from { background:#D50036 }
+    50% { background: orange }
+    to { background:#D50036 }
+}
+
+
 /*---------------------- sec2 ---------------------- */
 #titleBox {
     width:100%;
@@ -173,6 +189,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
+    animation: inbox2 .7s 2s both;
 }
 
 .inbox2:hover { 
@@ -207,6 +224,16 @@ body {
 }
 
 
+
+
+@keyframes inbox2 {
+    from { transform: translateX(-20%); opacity: 0 }
+    to { transform: translateX(0); opacity: 1 }
+}
+
+
+
+
 /*---------------------- sec3 ---------------------- */
 #sec3 {
     width:100%;
@@ -228,6 +255,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
+    animation:inbox3 .7s 3s both;
 }
 
 .inbox3:hover { 
@@ -262,6 +290,14 @@ body {
 }
 
 
+
+        
+@keyframes inbox3 {
+    from { transform: translateX(10%); opacity: 0 }
+    to { transform: translateX(0%); opacity: 1 }
+}
+
+
 /*---------------------- sec4 ---------------------- */
 #sec4 {
     width:100%;
@@ -283,6 +319,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: .7s;
+    animation:inbox4 .7s 4s both;
 }
 
 .inbox4:hover { 
@@ -316,6 +353,12 @@ body {
     align-items: center;
 }
 
+
+    
+@keyframes inbox4 {
+    from { transform: translateX(-20%); opacity: 0 }
+    to { transform: translateX(0); opacity: 1 }
+}
 
 
 /*---------------------- sec5 ---------------------- */

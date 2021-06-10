@@ -15,14 +15,21 @@
         $('.hslide').hide();
         
         // 1. 모든 서클버튼 초기화(투명)
-        $('.circle').css('background','transparent');
+        $('.circle').css({
+            'background':'transparent',
+            'width':'15px'
+        });
         
         
         // 2. 현재 슬라이드 이미지만 보이기
         $('.hslide').eq(slideNo).css('display','block');
         
         //2. 현재 서클버튼 흰색 배경
-        $('.circle').eq(slideNo).css('background','#fff');
+        $('.circle').eq(slideNo).css({
+            'background':'#fff',
+            'width':'30px',
+            'border-radius':'20px'
+        });
 
         
     }  // function slide(no)
@@ -64,6 +71,9 @@
             slideNo = $(this).index();  // 슬라이드 번호 맞추기
             slide(0);     // 슬라이드 변경하기
         });
+        
+                
+        
 
     });  // $(function())
 
