@@ -43,7 +43,7 @@ body {
     font-size:1.8rem;
     text-align: center;
     margin-left:20px;
-    color:#FFF;
+    color:#d50036;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
@@ -92,11 +92,13 @@ body {
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
  
+/*
     #outBox {
         background-image: url('../images/orderbackmini.png');
         background-size: cover;
         display: block;
     }
+*/
         
     #container {
         width:100%;
