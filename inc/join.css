@@ -60,7 +60,6 @@ body {
 #joinBox {
     width:100%;
     height: 100%;
-
 }
 
 #joinBox>h2 { 
@@ -75,6 +74,7 @@ body {
 #agree {
     width:70%;
     padding-left: 20px;
+    padding-top: 10px;
     background:rgba(0,0,0,.1);
 }
 
