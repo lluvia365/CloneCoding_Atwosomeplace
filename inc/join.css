@@ -134,6 +134,16 @@ body {
 
 
 
+@media screen and (max-width:700px){
+    #secA {  }
+    
+    /* 모바일 화면에서는 모든 슬라이드가 100% 크기로 동일하게 맞춤 */
+
+    
+}
+    
+
+
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
  
@@ -167,7 +177,10 @@ body {
         margin-top:0px; 
         margin-bottom: 10px;
         margin-left: 20px;
+        padding:0
     }
+    
+    .slide, .slide:nth-child(2) { transform: scale(1)}
     
     
     
