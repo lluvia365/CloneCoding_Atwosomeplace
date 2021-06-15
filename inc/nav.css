@@ -187,6 +187,8 @@ body{
     #menu {
         position:fixed; top:50px; right:0;
         width:150px; 
+        height: 100%;
+        background:rgba(255,255,255,.3);
         display: none;
     }
     

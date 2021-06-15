@@ -142,6 +142,8 @@ body {
 #outbox {
     background-image: url('../images/secback.png');
     background-size: cover;
+/*    background-repeat: no-repeat;*/
+    background-attachment: fixed;
 }
 
 
