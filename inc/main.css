@@ -598,7 +598,7 @@ body {
     width:40px;
     line-height: 40px;
     position: fixed;
-    bottom:0;
+    bottom:-100px;
     right:0;
     background:rgba(198,60,63,.8);
     color:#FFF;
@@ -606,10 +606,8 @@ body {
     cursor: pointer;
 }
 
-#gotop>a {
-    text-decoration: none;
-    color:#FFF;
-}
+
+#gotop:hover{ border-radius: 50px }
 
 
 

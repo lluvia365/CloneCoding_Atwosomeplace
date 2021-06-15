@@ -43,6 +43,17 @@
         clearInterval(loop);
     }
     
+
+    $(window).scroll(function(){  // 화면을 스크롤 할 때
+        // 스크롤 위치가 300픽셀을 넘으면 'top'버튼 보이기
+        // 그렇지 않으면(300픽셀 이하) 'top'버튼 숨기기
+        
+        if($(this).scrollTop()>300)
+            $('#gotop').css('bottom','10px');
+        else
+            $('#gotop').css('bottom','-100px');
+    });
+
     
     $(function(){  // 페이지 열릴 때
         
@@ -72,6 +83,12 @@
             slide(0);     // 슬라이드 변경하기
         });
         
+        
+        $('#gotop').click(function(){  // 'top'버튼 클릭할 때
+        // 화면의 스크롤 위치를 맨 상단으로 변경
+        $('body,html').stop().animate({'scrollTop':'0'},500)
+            
+        });
                 
         
 
