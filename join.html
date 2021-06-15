@@ -25,12 +25,14 @@
 <!--- 내비게이션용 스크립트 --->
 <script src="inc/nav.js"></script>
     
+<script src="inc/join.js"></script>
+    
 
     
 
 </head>
 
-<body>
+<body onLoad="playSlide()">
     
         
 <!------------------------ navi ------------------------>   
@@ -115,20 +117,40 @@
             <div id="title">브랜드 > 가맹문의 </div>
         </div>
         
-        <div id="contentsBox"> 
+        <div id="contentsBox" onMouseOver="stopSlide()" onMouseOut="playSlide()"> 
+            
+            <!-- 슬라이드 박스 -->
             <div id="slideBox">
-                <div id="slide">
+                
+                <div class="slide">
                     <img src="images/join1.png" class="slideImage" alt="이미지" />
+                </div>
+                
+                <div class="slide">
                     <img src="images/join2.png" class="slideImage" alt="이미지" />
+                </div>
+                
+                <div class="slide">
                     <img src="images/join3.png" class="slideImage" alt="이미지" />
+                </div>    
+                  
+                <div class="slide">
                     <img src="images/join4.png" class="slideImage" alt="이미지" />
+                </div>
+                
+                <div class="slide">    
                     <img src="images/join5.png" class="slideImage" alt="이미지" />
+                </div>    
+                    
+                <div class="slide">
                     <img src="images/join6.png" class="slideImage" alt="이미지" />
+                </div>    
                 
                     <buttom class="button left">&lang;</buttom>
                     <button class="button right">&rang;</button>
-                </div>
-            </div>
+                </div> <!-- #slideBox -->
+            
+            </div>  <!-- #contentsBox -->
             
             <div id="joinBox">
                 <h2>온라인<span>창업상담</span></h2>
