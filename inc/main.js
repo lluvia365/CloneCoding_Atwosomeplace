@@ -76,6 +76,18 @@
         // 슬라이드 박스를 헤더 안으로(원래위치로) 이동
         $('#slideBox').stop().animate({'margin-left':0},600);  
     };
+
+
+    
+    $(window).scroll(function(){  // 화면을 스크롤할 때
+        // 스크롤 위치가 100픽셀을 넘으면 'top'버튼 보이기
+        // 그렇지 않으면(100픽셀 이하) 'top'버튼 숨기기
+        
+        if($(this).scrollTop()>100)
+            $('#gotop').css('transform','scale(1)')
+        else
+            $('#gotop').css('transform','scale(0)');
+    });
     
 
    
@@ -100,7 +112,15 @@
             // 만약 슬라이드박스가 애니메이션중이 아니면(안움직이면)
             if(!$('#slideBox').is(':animated'))
             toRight();  // 이전 슬라이드 보기 (슬라이드 오른쪽으로 이동)
+        });   
+        
+        
+        $('#gotop').click(function(){  // 'top'버튼 클릭할 때
+            // 화면의 스크롤 위치를 맨 상단으로 변경
+            $('body,html').stop().animate({'scrollTop':'0'},500)
+            
         });        
+                
 
 	});  //$(function()
 
