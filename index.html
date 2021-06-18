@@ -33,7 +33,7 @@
     
 </head>
 
-<body  onLoad="playSlide()">
+<body onLoad="playSlide()">
     
     
 <!------------------------ navi ------------------------>   
@@ -109,11 +109,11 @@
     
     
 <!------------------------ header ------------------------>     
-    <div id="header">
+    <div id="header" onMouseOver="stopSlide()" onMouseOut="playSlide()">
     
-        <div id="hBox">
-            <img src="images/main11.jpg" alt="메인이미지" class="hslide"/>
-            <img src="images/main22.jpg" alt="메인이미지" class="hslide" />
+        <div id="slideBox">
+            <img src="images/main1.jpg" alt="메인이미지" class="slide"/>
+            <img src="images/main2.jpg" alt="메인이미지" class="slide" />
         </div>  <!--- #hBox --->
         
         <div id="circleBox">
@@ -173,24 +173,21 @@
         <div id="sec2">
     
             <div class="inbox2">
-                <div class="imgbox2">
                     <img src="images/icecoffee.png" alt="이미지" />                               
-                </div>
+
                 <div class="textbox2">아이스커피</div>                 
             </div>  <!---- #inbox2 --->
 
             <div class="inbox2">
-                <div class="imgbox2">
                     <img src="images/icecrem.png" alt="이미지" />
-                </div>
+
                 <div class="textbox2">아이스크림 카페라떼</div>            
 
             </div>  <!---- #inbox2 --->   
 
             <div class="inbox2">
-                <div class="imgbox2">
                     <img src="images/dalgo.png" alt="이미지" />
-                </div>
+ 
                 <div class="textbox2">달고나 카페 라떼</div>                
 
             </div>
@@ -200,27 +197,26 @@
    <!------------------------ sec3 ------------------------>  
         <div id="sec3">
             <div class="inbox3">
-                <img src="images/new.png" class="new" alt="new" />
-                <div class="imgbox3">
-                    <img src="images/bing1.png" alt="이미지" />
-                </div>
+                <div class="new">
+                    <img src="images/new1.png" alt="new" /></div>
+                <img src="images/bing1.png" alt="이미지" />
+                
                 <div class="textbox3">베리바 요거 케이크 빙수</div>                
 
             </div>  <!---- #inbox3 --->
 
             <div class="inbox3">
-                <img src="images/new.png" class="new" alt="new" />
-                <div class="imgbox3">
-                    <img src="images/bing3.png" alt="이미지" />
-                </div>
+                <div class="new">
+                <img src="images/new1.png" alt="new" />                </div>
+                <img src="images/bing3.png" alt="이미지" />
+              
                 <div class="textbox3">옥수수바 팝콘 빙수</div>                
 
             </div>  <!---- #inbox3 --->   
 
             <div class="inbox3">
-                <div class="imgbox3">
                     <img src="images/bing4.png" alt="이미지" />
-                </div>
+ 
                 <div class="textbox3">베리바 망고 빙수</div>                
 
             </div>  <!---- #inbox3 --->
@@ -230,25 +226,22 @@
    <!------------------------ sec4 ------------------------>  
         <div id="sec4">
             <div class="inbox4">
-                <div class="imgbox4">
                     <img src="images/cake1.png" alt="이미지" />                    
-                </div>
+             
                 <div class="textbox4">커스터드 크림 다쿠아즈</div>                 
 
             </div>  <!---- #inbox4 --->
 
             <div class="inbox4">
-                <div class="imgbox4">
                     <img src="images/cake3.png" alt="이미지" />
-                </div>
+              
                 <div class="textbox4">우리쌀 베리 무스</div>                
 
             </div>  <!---- #inbox4 --->
 
             <div class="inbox4">
-                <div class="imgbox4">
                     <img src="images/maca1.png" alt="이미지" />
-                </div>
+         
                 <div class="textbox4">망고 트로피컬 마카롱</div>                
 
             </div>  <!---- #inbox4 --->
@@ -265,15 +258,39 @@
             <div id="inbox5">
                 
                 <div id="imgbox5-1">  
-                <iframe width="460" height="259" src="https://www.youtube.com/embed/8vMRtiU9638" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img src="images/5img1.png" alt="투썸동영상1" class="thumb" />
+
+<!--
                 </div>
                 
                 <div id="imgbox5-2">
-                <iframe width="460" height="259" src="https://www.youtube.com/embed/1QVlgGcNPs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+                    <img src="images/5img2.png" alt="투썸동영상2" class="thumb" />
+<!--                <iframe width="460" height="259" src="https://www.youtube.com/embed/1QVlgGcNPs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                 </div>
                 
             </div>  <!---- #inbox5 --->
         </div>  <!---- #box5 --->
+        
+            
+    <!------------- 모달창 ------------->
+    <div id="modal">
+    
+        <div id="modalbox">
+            
+            <div id="modalContents">
+                <h2 id="modalTitle">투썸동영상</h2>
+                <iframe width="460" height="259" src="https://www.youtube.com/embed/8vMRtiU9638" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="modalImage"></iframe>
+                <button id="modalClose">&times;</button>
+             </div>
+            
+        </div>
+        
+    </div>     
+            
+        
+        
+        
     </div>  <!---- #sec5 --->
     
     
