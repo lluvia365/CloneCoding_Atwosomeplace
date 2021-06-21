@@ -408,7 +408,7 @@ body {
 
 
  /*------------- 모달창 -------------*/
-    #modal {
+    #modal1 {
         position:fixed; top:0; left:0;
         width:100%; height: 100%;
         background:rgba(0,0,0,.5);
@@ -420,12 +420,12 @@ body {
         animation:fadeIn .5s;
     }    
 
-    #modalbox { width:30% }
+    #modalbox1 { width:30% }
 
       
-    #modalContents {
-        width:95%; 
-        max-width:800px;
+    #modalContents1 {
+        width:105%; 
+        max-width:1000px;
         background:#fff;
         border-radius: 10px;
         padding:20px;
@@ -436,15 +436,59 @@ body {
     }
 
     
-    #modalTitle {
+    #modalTitle1 {
         font-size:2rem;
         margin-bottom: 20px;
     }
     
-    #modalImage { width:100% }
+    #modalImage1 { width:100% }
 
     
-    #modalClose {
+    #modalClose1 {
+        position: absolute;
+        top:10px; right:10px;
+        background:transparent; border:none;
+        font-size:3rem;
+        cursor: pointer;
+    }    
+
+        #modal2 {
+        position:fixed; top:0; left:0;
+        width:100%; height: 100%;
+        background:rgba(0,0,0,.5);
+        
+        display:none;  /* 모달창 내용 가운데 맞춤용(flex사용)-처음엔 안보이게 */
+        justify-content: center;
+        align-items: center;
+        
+        animation:fadeIn .5s;
+    }    
+
+    #modalbox2 { width:30% }
+
+      
+    #modalContents2 {
+        width:105%; 
+        max-width:1000px;
+        background:#fff;
+        border-radius: 10px;
+        padding:20px;
+        box-shadow:0 10px 10px rgba(0,0,0,.5);
+        position:relative;  /* 닫기버튼 위치 조절용 */
+        
+        animation: modalContents .5s
+    }
+
+    
+    #modalTitle2 {
+        font-size:2rem;
+        margin-bottom: 20px;
+    }
+    
+    #modalImage2 { width:100% }
+
+    
+    #modalClose2 {
         position: absolute;
         top:10px; right:10px;
         background:transparent; border:none;

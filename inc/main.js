@@ -100,24 +100,45 @@
         
         
         
-        $('.thumb').click(function(){  // 섬네일 이미지 클릭할 때
+        $('.thumb1').click(function(){  // 섬네일1 이미지 클릭할 때
             /*
             1. 모달창 보이기
             2. 모달창 제목 내용 변경(클릭한 이미지의 alt값)
             3. 모달창 이미지 변경(클릭한 이미지의 src값)
             */
-            $('#modal').css('display','flex');
+            $('#modal1').css('display','flex');
             
-            $('#modalTitle').html($(this).attr('alt'));
-            $('#modalImage').attr('src',$(this).attr('src'));
+            $('#modalTitle1').html($(this).attr('alt'));
+            
+             $('#modalTitle2').html($(this).attr('alt'));
+            
+        });
+           
+        
+        $('.thumb2').click(function(){  // 섬네일2 이미지 클릭할 때
+            /*
+            1. 모달창 보이기
+            2. 모달창 제목 내용 변경(클릭한 이미지의 alt값)
+            3. 모달창 이미지 변경(클릭한 이미지의 src값)
+            */
+            $('#modal2').css('display','flex');
+            
+            $('#modalImage1').attr('src',$(this).attr('src'));
+            
+            $('#modalImage2').attr('src',$(this).attr('src'));
+            
         });
         
         
-        $('#modalClose').click(function(){  //모달창 닫기버튼 클릭할 때
-
-            $('#modal').fadeOut(300);  // 모달창 서서히 사라짐
+        $('#modalClose1').click(function(){  //모달창 닫기버튼 클릭할 때
+        
+            $('#modal1').fadeOut(300);  // 모달창 서서히 사라짐
+            
         });
         
+        $('#modalClose2').click(function(){  //모달창 닫기버튼 클릭할 때
+            $('#modal2').fadeOut(300);  // 모달창 서서히 사라짐
+        });
                 
 
 	});  //$(function()
