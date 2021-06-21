@@ -110,7 +110,7 @@
             
             $('#modalTitle1').html($(this).attr('alt'));
             
-             $('#modalTitle2').html($(this).attr('alt'));
+             $('#modalImage1');
             
         });
            
@@ -123,9 +123,9 @@
             */
             $('#modal2').css('display','flex');
             
-            $('#modalImage1').attr('src',$(this).attr('src'));
+            $('#modalTitle2').html($(this).attr('alt'));
             
-            $('#modalImage2').attr('src',$(this).attr('src'));
+            $('#modalImage2');
             
         });
         
