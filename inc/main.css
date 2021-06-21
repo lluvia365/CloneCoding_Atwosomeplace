@@ -840,11 +840,11 @@ body {
     #sec5 { width:100%; height: 300px }
     
     #imgbox5-1 { 
-        width:95%; height: 80%;
+        width:100%; height: 80%;
         margin:auto;
     }
     
-    .thumb1 { width:100%; height: 100%;  margin:0 20px }
+    .thumb1 { width:100%; height: 100%;  margin:0 10px }
     
     #imgbox5-2 { 
         display: none;
@@ -853,11 +853,12 @@ body {
     #modalbox1 { width:100% }
       
     #modalContents1 {
-        width:70%; 
+        width:90%; 
         max-width:500px;
         background:#fff;
         border-radius: 10px;
         padding:20px;
+        margin: auto;
 
     }
 
