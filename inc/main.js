@@ -26,6 +26,16 @@
     };  // 슬라이드 메인 스크립트 slide(no)
     
         
+        // WOW 스크립트
+            wow = new WOW( {
+                boxClass:     'wow',      // default
+                animateClass: 'animated', // default
+                offset:       0,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            } );
+
+            wow.init();	//WOW 초기화
     
     
     // 슬라이드를 왼쪽으로 이동하는 함수(다음 버튼용)
