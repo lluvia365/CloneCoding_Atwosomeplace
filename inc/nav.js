@@ -17,6 +17,30 @@
         $('#view,#blackBox').click(function(){
             $('#menu,#blackBox').fadeToggle();  // 천천히 열리고 닫히게 
         });
+     
+     
+    
+		//서브메뉴의 링크값에 따라 스타일 변경
+
+		var no = $('.sub').length;   //서브메뉴의 총 개수
+
+		var x;
+		for(x=0;  x<no;  x++){
+			var url = $('.sub').eq(x).attr('href');   //서브메뉴의 링크값
+			if(url)   //링크값 여부에 따라 각각의 스타일 적용하기
+				$('.sub').eq(x).addClass('menuActive');
+			else
+				$('.sub').eq(x).addClass('menuInactive');
+		}   //end for()
+
+
+		$('.sub, .main').click(function(){
+			var url = $(this).attr('href');   //서브메뉴의 링크값
+
+			//링크값이 있을 때만 해당 페이지로 이동하기
+			if(url)
+				window.location.href=url; 
+		});   //$('.sub').click() 
         
         
     });  // $(function()

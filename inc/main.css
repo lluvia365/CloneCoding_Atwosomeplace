@@ -383,14 +383,45 @@ body {
 }
 
 
-.thumb1 { display: block;  border:1px solid #333; margin:0 20px;}
+.thumb1 { 
+    display: block;  border:1px solid #333;
+    margin:0 20px;
+}
+
 .thumb2 { display: block;  border:1px solid #333; margin:0 20px;}
 
-.caption1 {    
-    width:100%; height: 100%;
+#caption1 {    
+    width:100%; height: 50%;
     position: absolute;
-    top:0; left:0;
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    color:#FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 140px 0;
+    opacity: 0;
+    background-color:rgba(0,0,0,.5);
+    transition:.3s;
 }
+
+#caption1:hover { opacity: 1 }
+
+
+#caption2 {    
+    width:100%; height: 50%;
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    color:#FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 140px 0;
+    opacity: 0;
+    background-color:rgba(0,0,0,.5);
+    transition:.3s;
+}
+
+#caption2:hover { opacity: 1 }
 
 
 

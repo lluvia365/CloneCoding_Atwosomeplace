@@ -72,7 +72,7 @@ body{
         color: #54565A;
         font-size: 1.3rem;
         font-weight: bold;  /* 글자 진하게 */
-        cursor: pointer; transition:.1s;
+        transition:.1s;
         position:relative;
     }
     
@@ -92,7 +92,6 @@ body{
         background:rgba(81,85,88,.5);
         font-size: 1rem; font-weight: normal;
         line-height: 50px;
-        cursor: pointer;
         transition:.3s;
     }
 
@@ -105,6 +104,12 @@ body{
         color:#FFF; background: rgba(198,60,63,.9);
     }
     
+	/*링크값이 있는 서브메뉴 스타일*/
+	.menuActive { color: #FFF; cursor: pointer }   
+
+	/*링크값이 없는 서브메뉴 스타일*/
+	.menuInactive { color:#999; cursor: default }
+
     
     /* 모바일용 메뉴 펼침 버튼 */
     #view {
