@@ -21,7 +21,7 @@
             $('body,html').stop().animate({'scrollTop':'0'},500)
             
         });        
-                
+        
 
 	});  //$(function()
 

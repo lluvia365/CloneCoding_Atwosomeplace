@@ -75,7 +75,6 @@ body {
     height: 130px;
     display: flex;
     padding-left:30px;
-    cursor: pointer;
 }
 
 .Box1 {
@@ -96,17 +95,13 @@ body {
 
 .Box1>h3 { margin-bottom: 5px}
 
+/*
 .Box1:hover { 
     background:#D50036;
     transform: scale(1.1,1.1) translateY(-10px);
     box-shadow: 0 5px 5px rgba(213,00,54,.3);    
 }
-
-.Box2:hover { 
-    background:#D50036;
-    transform: scale(1.1,1.1) translateY(-10px);
-    box-shadow: 0 5px 5px rgba(213,00,54,.3);   
-}
+*/
 
 
 .in2 { margin-bottom: 10px;}
@@ -130,7 +125,6 @@ body {
 
 .Box2>h3 { margin-bottom: 5px}
 
-.Box2:hover { background:#D50036 }
 
 #sec2 {
     width:100%;
@@ -145,11 +139,16 @@ body {
     padding-left: 30px;
 }
 
+.inmap {
+    width:100%;
+    display: none;
+}
+
 
 .listinBox {
-    width: calc(80% / 3);
+    width: calc(90% / 4);
     line-height: 3.2rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:#FFF;
     display: flex;
     justify-content: center;
@@ -158,18 +157,35 @@ body {
     background:rgba(0,0,0,.5);
 }
 
+
+.listinBox2 {
+    width: calc(90% / 4);
+    line-height: 3.2rem;
+    font-size: 1.1rem;
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #333;
+    background:rgba(0,0,0,.5);
+}
+
+
+
+
 .titleBox {
     line-height: 3.5rem;
     font-size: 1.5rem;
 }
 
 .miniBox {
-    width:60%;
-    height: 80%;
+    width:40%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #D50036;
+    border-radius: 10px;
     cursor: pointer;
 }
 
