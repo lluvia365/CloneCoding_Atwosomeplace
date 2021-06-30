@@ -154,6 +154,18 @@
 	});  //$(function()
 
 
+//Youtube 영상 - 가로 크기 변화에 맞춰 세로 크기 조절-------------
+    $(document).ready(autoHeight_video);   //페이지 열릴 때 실행
+    $(window).resize(autoHeight_video);    //창의 크기를 조절할 때 실행 
+    
+    function autoHeight_video(){
+        var newH = $('#videoBox').width() * (259/460);  
+            //동영상 박스의 가로 대비 세로 크기(460*259 기준)
+         $('#videoBox').height(newH);
+            //동영상 박스의 세로 크기 변경
+    }
+
+
 
     // 화면 해상도별 슬라이드 이미지 변경
     function autoChange(){
