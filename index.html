@@ -41,6 +41,22 @@
 </head>
 
 <body onLoad="playSlide()">
+   
+
+   <!-- 프리로딩 내용 -->
+   <div id="preload">
+        <div id="circularG">
+            <div id="circularG_1" class="circularG"></div>
+            <div id="circularG_2" class="circularG"></div>
+            <div id="circularG_3" class="circularG"></div>
+            <div id="circularG_4" class="circularG"></div>
+            <div id="circularG_5" class="circularG"></div>
+            <div id="circularG_6" class="circularG"></div>
+            <div id="circularG_7" class="circularG"></div>
+            <div id="circularG_8" class="circularG"></div>
+        </div>
+   </div>
+      
     
     
 <!------------------------ navi ------------------------>   
@@ -104,8 +120,7 @@
                         </ul>                
                     </li>
                     
-                </ul>
-                
+                </ul>                
             </nav>
             
         </div>    <!--- 1200px 내부 박스(로고+내비 #navInBox) --->  
@@ -137,7 +152,7 @@
     
 <!------------------------ sec1 ------------------------>  
     <div id="sec1">
-        <div class="inbox1">
+        <div class="inbox1 wow fadeInUp" data-wow-offset="200">
             <div class="imgbox1">
                 <a href="event.html"><img src="images/event.png" alt="이미지" /></a>
                 <div class="textbox1">이벤트</div>
@@ -145,7 +160,7 @@
             
         </div>  <!---- #inbox1 --->
         
-        <div class="inbox1">
+        <div class="inbox1 wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="200">
             <div class="imgbox1">
                 <a href="order.html"><img src="images/order.png" alt="이미지" /></a>
                 <div class="textbox1">온라인주문</div>
@@ -153,14 +168,14 @@
             
         </div>  <!---- #inbox1 --->
         
-        <div class="inbox1">
+        <div class="inbox1 wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="200">
             <div class="imgbox1">
                 <a href="nutrition.html"><img src="images/chart.png" alt="이미지" /></a>
                 <div class="textbox1">영양성분표</div>
             </div>   
         </div>  <!---- #inbox1 --->
         
-        <div class="inbox1">
+        <div class="inbox1 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="200">
             <div class="imgbox1">
                 <a href="store.html"><img src="images/map.png" alt="이미지" /></a>
                 <div class="textbox1">매장찾기</div>
@@ -203,7 +218,7 @@
         
    <!------------------------ sec3 ------------------------>  
         <div id="sec3">
-            <div class="inbox3">
+            <div class="inbox3  wow fadeInRight" data-wow-offset="200">
                 <div class="new">
                     <img src="images/new1.png" alt="new" /></div>
                 <img src="images/bing1.png" alt="이미지" />
@@ -212,7 +227,7 @@
 
             </div>  <!---- #inbox3 --->
 
-            <div class="inbox3">
+            <div class="inbox3  wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="200">
                 <div class="new">
                 <img src="images/new1.png" alt="new" />                </div>
                 <img src="images/bing3.png" alt="이미지" />
@@ -221,7 +236,7 @@
 
             </div>  <!---- #inbox3 --->   
 
-            <div class="inbox3">
+            <div class="inbox3 wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="200">
                     <img src="images/bing4.png" alt="이미지" />
  
                 <div class="textbox3">베리바 망고 빙수</div>                
@@ -232,21 +247,21 @@
         
    <!------------------------ sec4 ------------------------>  
         <div id="sec4">
-            <div class="inbox4">
+            <div class="inbox4 wow fadeInLeft" data-wow-delay="0.4s" data-wow-offset="200">
                     <img src="images/cake1.png" alt="이미지" />                    
              
                 <div class="textbox4">커스터드 크림 다쿠아즈</div>                 
 
             </div>  <!---- #inbox4 --->
 
-            <div class="inbox4">
+            <div class="inbox4 wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="200">
                     <img src="images/cake3.png" alt="이미지" />
               
                 <div class="textbox4">우리쌀 베리 무스</div>                
 
             </div>  <!---- #inbox4 --->
 
-            <div class="inbox4">
+            <div class="inbox4 wow fadeInLeft" data-wow-offset="200">
                     <img src="images/maca1.png" alt="이미지" />
          
                 <div class="textbox4">망고 트로피컬 마카롱</div>                
@@ -266,11 +281,13 @@
                 
                 <div id="imgbox5-1">  
                     <img src="images/5img1.png" alt="투썸동영상1" class="thumb1" />
+                    <div id="caption1">투썸동영상</div>
 
                 </div>
                 
                 <div id="imgbox5-2">
                     <img src="images/5img2.png" alt="투썸동영상2" class="thumb2" />
+                    <div id="caption2">투썸동영상</div>
 
                 </div>
                 

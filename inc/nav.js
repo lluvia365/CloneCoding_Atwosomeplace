@@ -34,6 +34,15 @@
 
     });
 
+   // 페이지의 모든 내용(텍스트, 이미지, 동영상 등)이 읽혀지면 
+    //  (preload사용할땐 (window).on('load)를 사용해야함)
+    $(window).on('load',function(){  
+        $('#preload').fadeOut();  // 프리로딩 화면 사라짐
+        $('body').css('overflow','auto');  // 화면 스크롤 생김
+        $('body').css('scrollTop','0');  // 화면 스크롤 생김
+        
+    });
+
 
 
     
