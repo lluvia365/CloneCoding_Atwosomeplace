@@ -36,6 +36,7 @@
             $('#gotop').css('transform','scale(0)');
     });
     
+
     
     // 페이지가 열리거나 창의 크기가 변경될 때 슬라이드 폭 자동 조절하기
     $(document).ready(autoWidth);
