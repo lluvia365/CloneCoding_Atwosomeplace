@@ -847,40 +847,24 @@ body {
     /*------------ sec6 ------------*/
     #sec6 { 
         width:100%; 
-        height:200px;
-    }
-    
-    #caption6 {
-        width:100%;
-        height:100%;
-    }
-    
-    #inbox6-1 { 
-        width:50%;
-        height: 100%;
-        position: relative;
-    }   
-    
-    #type {
-        position: absolute;
-        top:20%;
-        transform:translateY(-20%);
-        font-size:2.5rem;
-        margin-left:100px;
-        font-weight: bold;
-    }
-    
-    
-    #inbox6 { 
-        width:50%;
-        height: 100%;
+        height:300px;
     }
     
 
     
+    #type {
+        position: absolute;
+        top:20%; left:25%;
+        transform:translate(-20%,-25%);
+        font-size:1.4rem;
+        margin:0;
+    }
+    
+    
+    
     #textbox6 {
         position: absolute;
-        left:20%;
+        left:10%;
         width:300px;
         line-height: 50px;
         margin: 0 0px 20px 0;
