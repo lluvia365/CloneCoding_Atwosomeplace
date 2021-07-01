@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title> join </title>
+
+<!-- jQuery 라이브러리 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        
+        
+<!-- 파비콘(Favicon) 적용하기 -->
+<link href="images/favicon.png" rel="shortcut icon" />
+         
+              
+<!-- WOW Plugin 사용을 위한 애니메이션 스타일 -->
+<link href="inc/animate.css" rel="stylesheet" />       
+
+        
+<!-- WOW Plugin -->
+<script src="inc/wow.js"></script>                        
+             
+          
+
+<!---- 상단 네비게이션 & 공통 스타일(모든파일용) ---->
+<link href ="inc/nav.css" rel="stylesheet" />
+
+    
+<!---- 스타일 ---->
+<link href ="inc/join.css" rel="stylesheet" />
+
+    
+<!--- 내비게이션용 스크립트 --->
+<script src="inc/nav.js"></script>
+    
+<script src="inc/join.js"></script>
+    
+
+    
+
+</head>
+
+<body onLoad="playSlide()">
+   
+
+   <!-- 프리로딩 내용 -->
+   <div id="preload">
+        <div id="circularG">
+            <div id="circularG_1" class="circularG"></div>
+            <div id="circularG_2" class="circularG"></div>
+            <div id="circularG_3" class="circularG"></div>
+            <div id="circularG_4" class="circularG"></div>
+            <div id="circularG_5" class="circularG"></div>
+            <div id="circularG_6" class="circularG"></div>
+            <div id="circularG_7" class="circularG"></div>
+            <div id="circularG_8" class="circularG"></div>
+        </div>
+   </div>
+      
+       
+    
+        
+<!------------------------ navi ------------------------>   
+    <div id="navBox">  <!--- 100% 전체 박스(#navBox) --->
+        
+        <div id="navInBox">  <!--- 1200px 내부 박스(로고+내비 #navInBox) --->
+        
+            <div id="logo">
+                <a href="index.html">A TOWSOME PLACE</a>
+            </div>
+
+            <nav id="navi">
+
+                <button id="view">&equiv;</button>
+
+
+                <ul id="menu">
+                    <li class="main">메뉴
+                        <ul class="subMenu">
+                            <li class="sub"><a href="menu.html">커피 음료</a></li>
+                            <li class="sub">디저트</li>
+                            <li class="sub">델리</li>
+                            <li class="sub">케이크</li>
+                            <li class="sub">상품</li>
+                        </ul>
+                    </li>
+                    
+                    <li class="main">SNS
+                        <ul class="subMenu">
+                            <li class="sub"><a href="sns.html">SNS</a></li>
+                        </ul>                
+                    </li>
+                    
+                    <li class="main">주문
+                        <ul class="subMenu">
+                            <li class="sub"><a href="order.html">주문하기</a></li>
+                        </ul>                
+                    </li>
+                    
+                    <li class="main">이벤트
+                        <ul class="subMenu">
+                            <li class="sub"><a href="event.html">진행중 이벤트</a></li>
+                            <li class="sub">종료된 이벤트</li>
+                        </ul>                
+                    </li>
+                      
+                    <li class="main">브랜드
+                        <ul class="subMenu">
+                            <li class="sub"><a href="store.html">매장찾기</a></li>
+                            <li class="sub">브랜드이야기</li>
+                            <li class="sub">커피이야기</li>
+                            <li class="sub">브랜드 필름</li>
+                            <li class="sub"><a href="join.html">가맹문의</a></li>
+                        </ul>                
+                    </li>
+                      
+                    <li class="main">로그인
+                        <ul class="subMenu">
+                            <li class="sub"><a href="login.html">로그인</a></li>
+                            <li class="sub">회원가입</li>
+                        </ul>                
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+            
+        </div>    <!--- 1200px 내부 박스(로고+내비 #navInBox) --->  
+        
+    </div>  <!--- 100% 전체 박스(#navBox) --->
+    
+    <div id="blackBox"></div>
+    
+    
+    
+<!------------------------ container ------------------------> 
+    <div id="outBox">    
+        <div id="container">
+        
+
+        <div id="titleBox">
+            <div id="title">브랜드 > 가맹정보 </div>
+        </div>
+        
+        <div id="contentsBox"> 
+            <h1>가맹점 창업 안내</h1>
+            
+            <div class="inBox">
+                <h1 class="text1">점포보유 여부</h1>
+                
+                <div class="Box">
+                <img src="images/berry.png" alt="이미지"/>
+                <h2 class="text2">점포 보유 시</h2>
+                <p>담당자에게 점포 위치와 연락처를 알려주시면 현장에서 상권 및 시장조사를 통하여 창업여부를 상담해드립니다.</p>
+                        
+                </div>  <!-- #Box -->
+                               
+                <div class="Box">
+                <img src="images/berry.png" alt="이미지"/>
+                <h2 class="text2">점포 미 보유 시</h2>
+                <p>담당자에게 신청서를 작성하여 창업상담을 받으실 수 있으며, 점포 물색에 도움을 드립니다.</p>
+                        
+                </div>  <!-- #Box -->
+
+            </div>  <!-- #inBox -->   
+             
+            </div>  <!-- #contentsBox -->
+            
+            
+            <div id="joinBox">               
+                <h1 class="text1">창업절차</h1>  
+                 
+                <div class="stepBox">
+                    <h3 class="text3">STEP 01</h3>
+                    <h2 class="text4">가맹점 창업 문의</h2>
+                    <p>본사 홈페이지 또는 전화<br>(080-723-2323)신청 및 접수</p>
+                </div>   
+               
+                
+                <div class="stepBox">
+                    <h3 class="text3">STEP 02</h3>
+                    <h2 class="text4">접수 및 담당자 개별 상담</h2>
+                    <p>회사소개, 투썸플레이스 프랜차이즈 사업 설명</p>
+                </div>   
+               
+                
+                <div class="stepBox">
+                    <h3 class="text3">STEP 03</h3>
+                    <h2 class="text4">후보지 선정, 상권분석, 본사 개설 승인</h2>
+                    <p>- 사업 타당성 분석<br>- 가맹신청서 접수 / 정보공개서 제공</p>
+                </div>   
+                       
+                       
+                <div class="stepBox">
+                    <h3 class="text3">STEP 04</h3>
+                    <h2 class="text4">가맹계약 체결</h2>
+                    <p>- 계약 기간 3년 계약 만료 후<br>1년단위 재개약<br>- 추가 비용 없음</p>
+                </div>   
+                                 
+                                  
+                <div class="stepBox">
+                    <h3 class="text3">STEP 05</h3>
+                    <h2 class="text4">가맹금/보증금/교육비 입금</h2>
+                    <p>- 가맹금 : 2,000만원<br>-보증금 : 1,000만원<br>- 교육비 : 150만원</p>
+                </div>   
+               
+                                
+                <div class="stepBox">
+                    <h3 class="text3">STEP 06</h3>
+                    <h2 class="text4">시공 : 점포실측, 디자인 결정 후 공사 진행</h2>
+                    <p>- 실측 후 설계도면 작성,<br>점주님과 최종 협의<br>- 시공업체 선정(입찰), 공사계약<br>공사 기간 약25일 ~ 35일 예상</p>
+                </div>   
+                                         
+                                                     
+                <div class="stepBox">
+                    <h3 class="text3">STEP 07</h3>
+                    <h2 class="text4">직원채용 및 교육</h2>
+                    <p>- 본사와 점주님 협의 후 직원 면접 채용<br>- 점주님 및 직원 교육<br>(10일:이론, 실습 교육)</p>
+                </div>   
+               
+                                                    
+                <div class="stepBox">
+                    <h3 class="text3">STEP 08</h3>
+                    <h2 class="text4">인/허가 및 영업 준비</h2>
+                    <p>- 각종 인/허가 증명서 발급<br>- 카드 승인 및 영업 관련 모든 사항 점검<br>- OPEN준비(리허설)</p>
+                </div>   
+               
+                                                   
+                <div class="stepBox">
+                    <h3 class="text3">STEP 09</h3>
+                    <h2 class="text4">점포오픈</h2>
+                    <p>- 오픈 프로모션 진행<br>- 투썸플레이스 영업 시작</p>
+                </div>   
+            
+            </div>  <!-- joinBox -->
+            
+   
+    </div>  <!-- #container -->        
+        
+        
+   <!------------------------ footer ------------------------>  
+    <div id="footer">
+        <div id="finbox">
+            <div id="text4">
+                서울 특별시 중구 을지로 170, 8층(을지로4가, 을지로트윈타워)<br /> 투썸플레이스(주)</div>
+            <div id="text5">고객센터 : 1577 - 4410<br />
+                통신판매업종신고중 : 제 2018 - 서울중구 - 0353호</div>
+        </div>
+    </div>
+            
+
+   <div id="gotop">Top</div>
+      
+    </div>  <!-- #outBox -->
+
+</body>
+</html>
