@@ -8,7 +8,10 @@
 <title> A TWOSOME PLACE !</title>
     
 <!-- jQuery 라이브러리 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>       
+   
+<!-- Typed.js Plugin -->
+<script src="plugin/typed.js-master/lib/typed.min.js"></script>     
     
 <!-- 파비콘(Favicon) 적용하기 -->
 <link href="images/favicon.png" rel="shortcut icon" />
@@ -333,16 +336,27 @@
       
  <!------------------------ sec6 ------------------------>  
     <div id="sec6">
+        <div id="caption6"></div>
    
-        <div id="inbox6">
+        <div id="inbox6-1">
+   
+                <div id="type"></div>
 
-                <div id="caption6"></div>
-                <div id="textbox6"><p class="text1">TWOSOME PLACE와 함께해요</p>
+        </div>  <!---- #inbox6-1 --->
+          
+        <div id="inbox6">
+                                
+                <div id="textbox6">
+                    <p class="text1">TWOSOME PLACE와 함께해요</p>
                     <p class="text2"><a href="join.html">가맹정보</a></p>
                     <p class="text3"><a href="join.html">가맹문의</a></p>
                 </div>
+                
 
+                
         </div>  <!---- #inbox6 --->
+        
+        
   
     </div>
 
@@ -398,6 +412,32 @@
     
     
     <div id="gotop">Top</div>
+    
+    
+    
+    
+<script>
+    
+    $(function(){
+        
+        // Type.js 플러그인 사용
+        var typed = new Typed('#type', {
+            strings: ["당신의 창업 성공 스토리,", "투썸플레이스가 함께합니다."],
+            startDelay: 1000,     //문자 등장 전 대기 시간   
+            typeSpeed: 70,      //문자 타이핑 시간   
+            loop:true,               //효과 반복 여부(true, false)   
+            //cursorChar: '_',      //타이핑 커저 모양   
+            showCursor: false,    //타이핑 커저 보이기(true, false)   
+            backDelay: 2000,     //문자 완성 후 지워지기 전 대기 시간   
+            fadeOut: true,       //페이드아웃 효과(true, false)   
+            smartBackspace: true,
+            loopCount: true,
+        });
+    })
+    
+</script>
+
+
 
 </body>
 </html>

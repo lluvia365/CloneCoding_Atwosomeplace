@@ -149,6 +149,8 @@
         $('#modalClose2').click(function(){  //모달창 닫기버튼 클릭할 때
             $('#modal2').fadeOut(300);  // 모달창 서서히 사라짐
         });
+        
+    
                 
 
 	});  //$(function()
