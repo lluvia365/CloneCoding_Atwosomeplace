@@ -15,10 +15,7 @@ body {
 
 #outBox {
     width:100%;
-    height: 100%;
-    background-image: url('../images/orderback.png');
-    background-size: cover;
-    display: block;    
+    height: 100%; 
 }
 
 
@@ -43,20 +40,46 @@ body {
     font-size:1.8rem;
     text-align: center;
     margin-left:20px;
-    color:#FFF;
+    color:#D50036;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
 
 
+
 #contentsBox {
     width:100%;
-    height:40%;
     margin-top:100px;
     margin-bottom: 300px;
 }
 
-#map { width:90%; height: 330px }
+#textBox1 {
+    width:100%;
+}
+
+#text1 { 
+    font-size: 3rem;
+    padding:10px 0 0 0;    
+}
+
+.inBox{
+    width:calc((100%-40px) / 3);
+    height: 300px;
+    border: 1px solid #D50036;
+}
+
+.inBox>img {
+    display: block;
+    width:200px;
+    height: 100px;
+}
+
+
+
+
+
+
+
 
 
 /*---------- 해상도 500px 이하일때 ----------*/
