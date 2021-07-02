@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
     *{box-sizing:border-box; margin:0; outline:0}
 
 html {
@@ -69,6 +71,7 @@ body {
     border-radius: 10px;
     background:#eee;
     transition:.7s;
+    position:relative;
     cursor: pointer;
 }
 
@@ -77,6 +80,21 @@ body {
     background:rgba(233,59,129,.3);
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
+
+.inBox:hover>.caption { display: block }
+
+.caption {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    color:#FFF;
+    border-radius: 10px;
+    font-size: 1.1rem;
+/*    display: none;*/
+}
+
+
+
 
 .inBox:hover .textBox { color:#FFF }
 
@@ -98,6 +116,7 @@ body {
     line-height: 40px;
     text-align: center;
 }
+
 
 
 #sec2 {
