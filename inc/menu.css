@@ -16,23 +16,31 @@ body {
 
 
 #container {
-    width:100%; max-width: 1200px;
+    width:100%; 
     height: 100%;
     padding-top:50px;
     margin:auto;
     margin-bottom: 50px;
 }
 
+#header {
+    width:100%;
+    height: 200px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    display: block;
+}
+
 #outBox {
     width:100%;
     height: 100%;
-    background-image: url('../images/secback.png');
+/*    background-image: url('../images/secback.png');*/
     background-size: cover;
     display: block;
 }
 
 #titleBox {
-    width:100%;
+    width:100%; max-width: 1200px;
     margin: auto;
     padding:20px 0;
 }
@@ -50,9 +58,9 @@ body {
 
 
 #contentsBox {
-    width:100%;
+    width:100%; max-width: 1200px;
     height: 600px;
-    margin-top: 10px;
+    margin: 50px auto;
 }
 
 #sec1 {
@@ -68,6 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    border:1px solid #ccc;
     border-radius: 10px;
     background:#eee;
     transition:.7s;
@@ -84,7 +93,7 @@ body {
 
 .caption {
     position: absolute;
-    left:30px;
+    left:20px;
     width:100%;
     height: 100%;
     color:#FFF;
@@ -131,6 +140,22 @@ body {
 }
 
 
+#gotop { 
+    width:40px;
+    line-height: 40px;
+    position: fixed;
+    bottom:10px;
+    right:0;
+    background:rgba(198,60,63,.8);
+    color:#FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#gotop:hover{ border-radius: 50px }
+
+
 
 
 /*---------- 해상도 500px 이하일때 ----------*/
@@ -166,6 +191,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 15px;
     }
     
     .inBox {
@@ -174,14 +200,20 @@ body {
         margin:auto 20px;
     }
     
+    .inBox:nth-child(3) { margin-top: 20px }
+    
+    .inBox:nth-child(4) { margin-top: 20px }
+    
     .caption {
         width:100%;
         height: 100%;
+        left:5px;
         font-size: .6rem;
+        line-height: 13px;
+        margin-top:2px;
     }
-    
-    .caption>ul { padding:0 }
-    
+
+        
     .imgBox {
         width:80%;
         height: 80%;
