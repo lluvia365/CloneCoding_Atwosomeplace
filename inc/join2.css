@@ -129,10 +129,11 @@ body {
 .listBox {
     width:100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .stepBox {
-    width:calc((100%-40px) / 3);
+    width:calc((100% - 40px) / 3);
     height: 280px;
     margin:0 20px 20px 0;
     padding:30px;
@@ -180,6 +181,7 @@ body {
         margin-bottom: 30px;
     }
     
+    #header { height: 100px }
 
     #titleBox { padding:10px 0 }
     
@@ -191,19 +193,74 @@ body {
     
     
     #contentsBox { 
-        width:80%;
+        width:90%;
         margin-top:0px; 
         margin-bottom: 10px;
         margin-left: 20px;
         padding:0
     }
     
-    .slide, .slide:nth-child(2) { transform: scale(1)}
+    .text1 { 
+        font-size:1.5rem;
+        padding: 10px 0 0 0;
+    }
     
-    .left { left:10px }
-    .right { right:10px }
+    .text5 { 
+        font-size: 1.8rem; 
+    }
+        
+    #inBox {
+        height: 320px;
+    }
+    
+    .Box {
+        margin:0 10px 10px 0;
+        padding: 0;
+    }
+    
+    .Box>img {
+        width:100px;
+        height: 50px;
+        margin:15px 0;
+    }
+    
+    .text2 { 
+        width:90%;
+        margin:5px auto;
+        font-size: 1.4rem;
+    }
+    
+    .Box>p {
+        width:90%;
+        font-size: 1rem;
+    }
+    
     
     #joinBox { margin-left: 20px }
+    
+    
+    .stepBox {
+        width:calc((100% - 5px) / 2);
+        height: 250px;
+        margin:0 5px 10px 0;
+        padding:10px;
+    }
+    
+    .stepBox:nth-child(3n) { margin-right: 5px }
+    
+    .stepBox:nth-child(2n) { margin-right: 0 }
+    
+    .text3 { font-size: 1.2rem }
+    
+    .text4 { 
+        font-size: 1rem;
+        margin:5px;
+    }
+    
+    .stepBox>p { font-size:.8rem }    
+    
+    
+    
     
     
 }  /*----- @media screen -----*/
