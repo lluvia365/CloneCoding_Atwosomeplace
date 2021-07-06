@@ -50,14 +50,12 @@ body {
 
 #contentsBox {
     width:100%; max-width: 1200px;
+    height: 300px;
     margin: 60px auto;
 }
 
 .eventBox {
-    width:70%;
-    border:1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
+    width:100%;
     margin: 50px auto;
 }
 
