@@ -14,26 +14,25 @@ body {
 
 
 
-#outBox {
-    width:100%;
-    height: 100%;
-    background-image: url('../images/snsback.png');
-    background-size: cover;
-    display: block;
-}
-
-
 #container {
-    width:100%; max-width: 1200px;
+    width:100%;
     height: 100%;
     padding-top:50px;
     margin:auto;
     margin-bottom: 50px;
 }
 
+#header {
+    width:100%;
+    height: 200px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    display: block;
+}
+
 
 #titleBox {
-    width:100%;
+    width:100%; max-width: 1200px;
     margin: auto;
     padding:20px 0;
 }
@@ -44,16 +43,15 @@ body {
     font-size:1.8rem;
     text-align: center;
     margin-left:20px;
-    color:#FFF;
+    color:#D50036;
     border-top:3px solid #D50036;
     border-bottom:3px solid #D50036;
 }
 
 
 #contentsBox {
-    width:100%;
-    height: 550px;
-    margin-top: 80px;
+    width:100%; max-width: 1200px;
+    margin: 60px auto;
 }
 
 #sec1 {
