@@ -11,6 +11,7 @@ html {
 body {
     width: 100%;
     font-family: 'Noto Sans KR', sans-serif;
+    background-color:#f7ecd5;
 }
 
 
@@ -34,7 +35,6 @@ body {
 #outBox {
     width:100%;
     height: 100%;
-/*    background-image: url('../images/secback.png');*/
     background-size: cover;
     display: block;
 }
@@ -59,33 +59,28 @@ body {
 
 #contentsBox {
     width:100%; max-width: 1200px;
-    height: 600px;
     margin: 50px auto;
 }
 
 #sec1 {
     width:100%;
-    height:50%;
-    display: flex;
-    margin-bottom: 10px;
+    display: flex; flex-wrap: wrap;
 }
 
 .inBox{
-    width:18%;
-    height:90%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    width:calc((100% - 60px) / 4);
+    margin:0px 20px 20px 0;
     border:1px solid #ccc;
     border-radius: 10px;
-    background:#eee;
-    transition:.7s;
+    background:#FFF;
+    transition:.3s;
     position:relative;
 }
 
+.inBox:nth-child(4n) { margin-right: 0 }
+
 .inBox:hover {
     transform: scale(1.1,1.1) translateY(-10px);
-    background:rgba(233,59,129,.3);
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
 
@@ -93,14 +88,15 @@ body {
 
 .caption {
     position: absolute;
-    left:20px;
+    left:0; top: 0;
     width:100%;
     height: 100%;
     color:#FFF;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 1.1rem;
-    margin-top: 10px;
+    font-size: 1rem;
     display: none;
+    background:rgba(104,43,22,.5);
 }
 
 .caption>ul { 
@@ -131,13 +127,6 @@ body {
     text-align: center;
 }
 
-
-
-#sec2 {
-    width:100%;
-    height:50%;
-    display: flex;
-}
 
 
 #gotop { 
@@ -195,8 +184,7 @@ body {
     }
     
     .inBox {
-        width:30%;
-        height: 45%;
+        width:38%;
         margin:auto 20px;
     }
     
@@ -207,11 +195,26 @@ body {
     .caption {
         width:100%;
         height: 100%;
-        left:5px;
         font-size: .6rem;
         line-height: 13px;
-        margin-top:2px;
     }
+    
+    
+/*
+    .caption {
+    position: absolute;
+    left:0; top: 0;
+    width:100%;
+    height: 100%;
+    color:#FFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    display: none;
+    background:brown;
+}
+*/
+
 
         
     .imgBox {

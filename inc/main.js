@@ -106,6 +106,44 @@
             // 화면의 스크롤 위치를 맨 상단으로 변경
             $('body,html').stop().animate({'scrollTop':'0'},500)
             
+            
+        
+		$('#popup').draggable();  // 팝업창을 드래그 가능하게
+        
+        $('#close1').click(function(){
+            $('#popup').fadeOut();
+        });
+        
+        //쿠키의 가설
+        // popup 변수의 값이 'yes'이면 팝업창 열지 않기
+        // (하루보지 않기, 다시보지 않기 버튼을 클릭할  때 'yes'값을 적용)
+        
+        //페이지가 열릴때 쿠키값 확인하기
+        var popup = $.cookie('popup');
+        
+        if(popup == 'yes')  // 보지 않기 버튼 클릭한 기록이 있으면
+            $('#popup').hide();
+        else
+            $('#popup').show();
+        
+        
+        // '오늘하루 보지 않기' 버튼 클릭할 때
+        // popup 변수에 'yes'값을 하루 동안 기억하기
+        $('#popclose1').click(function(){
+            $.cookie('popup','yes',{expires:1,path:'/'});  
+            $('#popup').fadeOut();
+          });
+               
+        
+        // '다시 보지 않기' 버튼 클릭할 때
+        // popup 변수에 'yes'값을 계속 기억하기
+        $('#popclose2').click(function(){
+           $.cookie('popup','yes',{expires:9999999999999999,path:'/'});
+            $('#popup').fadeOut();
+        });
+        
+    
+            
         });     
         
         

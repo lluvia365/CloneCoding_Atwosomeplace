@@ -17,9 +17,9 @@
     $(window).resize(autoHeight_video);    //창의 크기를 조절할 때 실행 
     
     function autoHeight_video(){
-        var newH = $('#videoBox').width() * (259/460);  
+        var newH = $('.videoBox').width() * (541/962);  
             //동영상 박스의 가로 대비 세로 크기(460*259 기준)
-         $('#videoBox').height(newH);
+         $('.videoBox').height(newH);
             //동영상 박스의 세로 크기 변경
     }
 

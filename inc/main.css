@@ -511,6 +511,52 @@ body {
     }    
 
     
+    #popup { /* 팝업창 */
+        width:400px;
+        position: fixed;
+        top:100px;
+        left:50px;
+        border:1px solid #CCC;
+        background: #FFF;
+        cursor: move;
+        display: none;
+    }
+    
+    #popup>h1 {
+        margin:10px;
+    }
+    
+    #close1 {
+        position: absolute;
+        top:5px; right: 10px;
+        font-size: 2rem;
+        cursor: pointer;
+        background:transparent; border: none;
+    }
+    
+    #popupcontents {
+        width:95%;
+        margin: 10px;
+        cursor: default;
+    }
+    
+    #popupcontents>img {
+        display: block;
+        width:100%;
+        border:1px solid #CCC;
+    }
+    
+    #popclose1, #popclose2 {
+        padding:5px 20px;
+        margin:10px 0 10px 10px;
+        font-size: 1rem;
+        border:none;
+        background:skyblue; color:#FFF;
+        cursor: pointer;
+    }
+
+
+    
     @keyframes fadeIn{
         from { opacity: 0 }
         to { opacity: 1 }
