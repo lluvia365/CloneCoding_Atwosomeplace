@@ -68,15 +68,26 @@ body {
 }
 
 
+#gotop { 
+    width:40px;
+    line-height: 40px;
+    position: fixed;
+    bottom:10px;
+    right:0;
+    background:rgba(198,60,63,.8);
+    color:#FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#gotop:hover{ border-radius: 50px }
+
+
 
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
  
-    #outBox {
-        background-image: url('../images/orderbackmini.png');
-        background-size: cover;
-        display: block;
-    }
         
     #container {
         width:100%;
@@ -84,8 +95,9 @@ body {
         margin-bottom: 30px;
     }
     
+    #header { height: 100px }
 
-    #titleBox { padding:10px 0 }
+    #titleBox { padding:30px 0 }
     
     #title {
         width:210px;
@@ -95,15 +107,15 @@ body {
     
     
     #contentsBox { 
-        height: 60%;
+        height: 400px;
         margin-top:0px; 
         margin-bottom: 10px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     
-    #eventBox { width:80% }
+    .eventBox { width:90% }
     
-    #eventBox>img {
+    .eventBox>img {
         width:100%;
     }
     

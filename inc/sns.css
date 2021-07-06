@@ -74,6 +74,23 @@ body {
     margin: 20px; padding: 5px 10px;
 }
 
+
+#gotop { 
+    width:40px;
+    line-height: 40px;
+    position: fixed;
+    bottom:10px;
+    right:0;
+    background:rgba(198,60,63,.8);
+    color:#FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#gotop:hover{ border-radius: 50px }
+
+
 /*
 
 .links:hover {

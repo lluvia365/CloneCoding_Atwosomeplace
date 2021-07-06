@@ -74,6 +74,7 @@ body{
         font-weight: bold;  /* 글자 진하게 */
         transition:.1s;
         position:relative;
+        cursor: pointer;
     }
     
     .main:hover{
