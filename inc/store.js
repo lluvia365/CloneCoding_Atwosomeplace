@@ -22,6 +22,10 @@
             
         });        
         
+        
+        $('.minimap').click(function(){
+            $('.map').fadeToggle();
+        })
 
 	});  //$(function()
 
