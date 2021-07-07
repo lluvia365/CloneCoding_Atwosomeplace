@@ -24,7 +24,7 @@
         
         
         $('.minimap').click(function(){
-            $('.map').fadeToggle();
+            $('.inmap').fadeToggle();
         })
 
 	});  //$(function()
