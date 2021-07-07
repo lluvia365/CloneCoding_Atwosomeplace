@@ -100,29 +100,36 @@ body {
 
 #joinBox {
     width:100%; max-width: 1200px;
-    margin-left:20px;
     margin:auto;
 }
 
 #joinBox>h2 { 
-    width:70%; 
+    width:90%; 
     border-bottom:3px solid #D50036;
+    font-size: 2.5rem;
 }
 
 #joinBox>h2>span { color:#D50036 }
 
-#joinBox>p { margin: 10px 0 }
+#joinBox>p { margin: 10px 0; font-size: 2rem }
 
 #agree {
-    width:70%;
+    width:90%;
     padding-left: 20px;
     padding-top: 10px;
-    
 }
+
+#agree>h3 {
+    font-size:1.6rem;
+}
+
 
 #agree>p {
     font-weight: normal;
+    font-size:1.3rem;
+    line-height: 40px;
 }
+
 
 #agree>h3>span { 
     
