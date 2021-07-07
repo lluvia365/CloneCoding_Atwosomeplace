@@ -105,10 +105,11 @@
         $('#gotop').click(function(){  // 'top'버튼 클릭할 때
             // 화면의 스크롤 위치를 맨 상단으로 변경
             $('body,html').stop().animate({'scrollTop':'0'},500)
-            
-            
+              
+        });     
         
-		$('#popup').draggable();  // 팝업창을 드래그 가능하게
+        
+        $('#popup').draggable();  // 팝업창을 드래그 가능하게
         
         $('#close1').click(function(){
             $('#popup').fadeOut();
@@ -141,11 +142,6 @@
            $.cookie('popup','yes',{expires:9999999999999999,path:'/'});
             $('#popup').fadeOut();
         });
-        
-    
-            
-        });     
-        
         
         
         $('#caption1').click(function(){  // 섬네일1 이미지 클릭할 때

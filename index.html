@@ -22,7 +22,16 @@
 
         
 <!-- WOW Plugin -->
-<script src="inc/wow.js"></script>                        
+<script src="inc/wow.js"></script>           
+        
+   
+<!-- 드래그 작업을 위한 jQuery UI Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+<!-- 쿠키(설정값을 기억) 사용을 위한 Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>         
+           
     
 <!---- 상단 네비게이션 & 공통 스타일(모든파일용) ---->
 <link href ="inc/nav.css" rel="stylesheet" />
@@ -62,9 +71,11 @@
      
          
     <div id="popup">
-        <h1>리뉴얼 이벤트</h1>
+        <h1>홈페이지 리뉴얼중</h1>
         <button id="close1">&times;</button>
-        <div id="popupcontents"><img src="images/icon-128x128.gif" /></div>
+        <div id="popupcontents">
+            <img src="images/banner.jpg" />
+        </div>
         <button id="popclose1">&times; 오늘 하루 보지 않기</button>
         <button id="popclose2">&times; 다시 보지 않기</button>
     </div>

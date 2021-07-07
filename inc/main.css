@@ -433,6 +433,7 @@ body {
         align-items: center;
         
         animation:fadeIn .5s;
+        z-index: 999;
     }    
 
     #modalbox1 { width:30% }
@@ -477,6 +478,7 @@ body {
         align-items: center;
         
         animation:fadeIn .5s;
+        z-index: 999;
     }    
 
     #modalbox2 { width:30% }
@@ -511,16 +513,19 @@ body {
         cursor: pointer;
     }    
 
-    
+
+
+ /*------------- 팝업창 -------------*/    
     #popup { /* 팝업창 */
         width:400px;
         position: fixed;
         top:100px;
-        left:50px;
+        left:200px;
         border:1px solid #CCC;
         background: #FFF;
         cursor: move;
         display: none;
+        z-index: 999;
     }
     
     #popup>h1 {
@@ -551,8 +556,10 @@ body {
         padding:5px 20px;
         margin:10px 0 10px 10px;
         font-size: 1rem;
-        border:none;
-        background:skyblue; color:#FFF;
+        border:1px solid #CCC;
+        border-radius: 5px;
+        background:#f7ecd5; color:#333;
+        font-weight: bold;
         cursor: pointer;
     }
 
