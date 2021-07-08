@@ -65,19 +65,29 @@ body {
     padding:10px 0 0 0;    
 }
 
+#secBox {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .inBox{
-    width:calc((100%-40px) / 3);
-    height: 300px;
+    width:calc((90% - 40px) / 3);
+    margin-right: 20px;
+    height: 250px;
     border: 1px solid #D50036;
 }
 
 .inBox>img {
     display: block;
-    width:200px;
-    height: 100px;
+    width:150px;
+    height: 80px;
+    margin-top:20px;
 }
 
-
+.inBox>h3 {
+    margin:20px 0;
+}
 
 
 
