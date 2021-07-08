@@ -37,7 +37,7 @@ body {
 }
 
 #title {
-    width:320px;
+    width:180px;
     line-height: 3.5rem;
     font-size:1.8rem;
     text-align: center;
@@ -180,7 +180,7 @@ body {
     #titleBox { padding:10px 0 }
     
     #title {
-        width:210px;
+        width:120px;
         line-height: 2rem;
         font-size: 1.2rem;
     }

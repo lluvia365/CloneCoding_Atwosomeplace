@@ -23,8 +23,8 @@
         });        
         
         
-        $('.minimap').click(function(){
-            $('.inmap').fadeToggle();
+        $('.miniBox').click(function(){
+            $(this).parent().next().fadeToggle();
         })
 
 	});  //$(function()

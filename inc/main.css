@@ -778,6 +778,13 @@ body {
         font-size: 0.6rem; line-height: 1rem;
     }
     
+    #popup { /* 팝업창 */
+        width:300px;
+        top:120px;
+        left:40px;
+    }
+    
+    
     /*------------ sec2 ------------*/    
     #outbox {
         background-image: url('../images/secbackmini.png');

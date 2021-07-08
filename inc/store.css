@@ -37,7 +37,7 @@ body {
 }
 
 #title {
-    width:250px;
+    width:180px;
     line-height: 3.5rem;
     font-size:1.8rem;
     text-align: center;
@@ -78,34 +78,29 @@ body {
 
 .list{
     width: 100%;
-    line-height: 4.5rem;
-    font-size: 1.5rem;
+    line-height: 3.5rem;
     color:#FFF;
-    display: flex; 
+    display: flex; flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border:1px solid #333;
     background:rgba(104,43,22,.6);
 }
 
-.title>h1 { width:calc(100% / 4) }
+.title>h2 { width:calc(100% / 4); font-size: 2rem }
 
-.list>h3 { width:calc(100% / 4) }
+.list>h3 { width:calc(100% / 4); font-size:1.5rem }
 
-.list>p { font-size: 1.7rem; font-weight: bold }
+.list>p { width:calc(100% / 4); font-size:1.2rem }
 
 
 .miniBox {
     width:40%;
-    height: 90%;
+    height: 50%;
     background: #D50036;
     border-radius: 10px;
     cursor: pointer;
 }
-
-
-
-
 
 
 .click { 
@@ -113,20 +108,11 @@ body {
     justify-content: center;
 }
 
-.inmap {
+.map {
     width:100%;
     height: 400px;
-/*    display: none;*/
+    display: none;
 }
-
-.map {
-    width:100%; height: 100%;
-}
-
-
-
-
-
 
 
 #sec1 {
@@ -201,53 +187,6 @@ body {
 
 
 
-
-
-
-/*
-
-.listinBox {
-    width: calc(100% / 4);
-    line-height: 3.5rem;
-    font-size: 1.5rem;
-    color:#FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #333;
-    background:rgba(104,43,22,.6);
-}
-*/
-
-
-
-
-
-/*
-
-.titleBox {
-    line-height: 3.5rem;
-    font-size: 1.5rem;
-}
-*/
-
-
-
-
-
-
-
-
-/*
-#map { 
-    width:90%; height: 330px;
-    padding-left:30px;
-    margin-bottom: 30px;
-}
-*/
-
-
-
 #gotop { 
     width:40px;
     line-height: 40px;
@@ -278,11 +217,12 @@ body {
         margin-bottom: 10px;
     }
     
+    #header { height: 100px }
 
-    #titleBox { padding:10px 0 }
+    #titleBox { padding:30px 0 }
     
     #title {
-        width:180px;
+        width:120px;
         line-height: 2rem;
         font-size: 1.2rem;
     }
@@ -292,6 +232,7 @@ body {
         margin-bottom: 0px;
     }
     
+    
     .textBox { 
         width:90%;
         margin-left:20px;
@@ -299,45 +240,55 @@ body {
         font-size: 1.1rem;
     }
     
+    .listBox {
+        width:90%;
+    }
+        
+    .list {
+        width:95%;
+        line-height: 2.5rem;
+        margin-left: 10px;
+    }
+    
+
+    .title>h2 { 
+        width:50%; font-size: 1.3rem; 
+        border-bottom: 1px solid #333;
+    }
+
+    .list>h3 { 
+        width:50%; font-size:1.1rem;
+        border-bottom: 1px solid #333;
+    }
+
+    .list>p { 
+        width:50%; font-size:1rem;
+        border-bottom: 1px solid #333;
+    }
+    
+    .miniBox { font-size: 1rem }
+
+    
+    
+    /*---------- sec1 ----------*/
     .inBox {
         height: 200px;
-        margin-bottom: 10px;
+        margin:0 0 30px 0;
         flex-wrap: wrap;
     }
     
     .Box1 {
-        width:40%;
-        margin-top:20px
+        width:calc(80% / 2);
+        margin:20px 0 0 20px
     }
-    
-    .Box1:hover { 
-    transform: scale(1.1,1.1) translateY(-10px);
-}
-    
     
     .Box1>h3 { font-size: 0.8rem }
     
-    .Box1>p { font-size: 0.5rem;}
-    
-    .Box1:nth-child(2n) { margin-right: 0 }
+    .Box1>p { font-size: 0.6rem}
           
+    
     .in2 { display: none }
         
-    
-    .listBox { width:100% }
-    
-    .titleBox {
-        font-size:0.8rem;
-    }
-    
-    .listinBox { 
-        width:30%;
-        line-height: 1.8rem;
-        font-size: 0.6rem;
-    }
-    
-    
-    #map { height: 50%; margin-left:0px }
     
     
 }  /*----- @media screen -----*/
