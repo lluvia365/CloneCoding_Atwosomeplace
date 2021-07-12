@@ -157,8 +157,6 @@ body {
 
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
- 
-
         
     #container {
         width:100%;
@@ -166,8 +164,10 @@ body {
         margin-bottom: 30px;
     }
     
+    #header { height: 100px }
+    
 
-    #titleBox { padding:10px 0 }
+    #titleBox { padding:30px 0 }
     
     #title {
         width:120px;
@@ -178,10 +178,7 @@ body {
     
     #contentsBox { 
         width:80%;
-        margin-top:0px; 
-        margin-bottom: 10px;
-        margin-left: 20px;
-        padding:0
+        margin:auto;
     }
     
     .slide, .slide:nth-child(2) { transform: scale(1)}
@@ -190,6 +187,14 @@ body {
     .right { right:10px }
     
     #joinBox { margin-left: 20px }
+    
+    #joinBox>h2 { font-size: 2rem }
+    
+    #joinBox>p { font-size: 1.5rem }
+    
+    #agree>h3 { font-size: 1.4rem }
+
+    #agree>p { font-size: 1rem }
     
     
 }  /*----- @media screen -----*/
