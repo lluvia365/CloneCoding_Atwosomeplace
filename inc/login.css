@@ -99,11 +99,6 @@ body {
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
  
-    #outBox {
-        background-image: url('../images/loginbackmini.png');
-        background-size: cover;
-        display: block;
-    }
         
     #container {
         width:100%;
@@ -111,22 +106,23 @@ body {
         margin-bottom: 30px;
     }
     
+    #header { height: 100px }
 
-    #titleBox { padding:10px 0 }
+    #titleBox { padding:30px 0 }
     
     #title {
-        width:120px;
+        width:140px;
         line-height: 2rem;
         font-size: 1.2rem;
     }
     
-    #contentsBox { margin-top:0px }
+    #contentsBox { height: 650px; margin-top:0px }
     
     #form1 {
         width:60%;
     }
 
-    .form3 { font-size: 1.2rem }
+    .form3, .form4 { font-size: 1.2rem }
 
     
     
