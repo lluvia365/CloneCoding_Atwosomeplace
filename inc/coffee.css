@@ -156,7 +156,7 @@ body {
     }
     
     #contentsBox {
-        height: 780px;
+        height: 700px;
     }
     
     #sec1 {
@@ -176,8 +176,8 @@ body {
     .caption {
         width:100%;
         height: 100%;
-        padding:20px;
-        font-size: .6rem;
+        padding:10px;
+        font-size: .5rem;
         line-height: 13px;
     }
     
