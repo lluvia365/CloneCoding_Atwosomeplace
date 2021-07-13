@@ -233,9 +233,9 @@ body {
     
     #joinBox { margin-left: 20px }
     
-    #joinBox>#textBox>.text5 { 
+    #joinBox>#textBox2>.text5 { 
         font-size: 1.8rem; 
-        margin-top: 20px;
+        margin-top: 0px;
 }
     
     
