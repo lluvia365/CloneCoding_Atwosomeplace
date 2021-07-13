@@ -194,13 +194,14 @@ body {
         padding:0
     }
     
-    .text1 { 
-        font-size:1.5rem;
-        padding: 10px 0 0 0;
+    #textBox>.text1 { 
+        font-size:2rem;
+        padding: 8px 0 0 0;
     }
     
-    .text5 { 
+    #textBox>.text5 { 
         font-size: 1.8rem; 
+        margin-top: 20px;
     }
         
     #inBox {
@@ -232,9 +233,14 @@ body {
     
     #joinBox { margin-left: 20px }
     
+    #joinBox>#textBox>.text5 { 
+        font-size: 1.8rem; 
+        margin-top: 20px;
+}
+    
     
     .stepBox {
-        width:calc((100% - 5px) / 2);
+        width:calc((90% - 5px) / 2);
         height: 250px;
         margin:0 5px 10px 0;
         padding:10px;
