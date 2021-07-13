@@ -262,7 +262,7 @@ body {
     }
 
     .list>p { 
-        width:50%; font-size:1rem;
+        width:50%; font-size:.9rem;
         border-bottom: 1px solid #333;
     }
     
