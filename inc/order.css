@@ -61,9 +61,17 @@ body {
 }
 
 #text1 { 
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding:10px 0 0 0;    
 }
+
+#text2 { font-size: 3rem; margin:20px 0 }
+
+#text3 { font-size: 2rem;  margin:20px 0} 
+
+#text4-1 { font-size: 1.5rem; margin:30px 0 }
+
+#text4-1>span { color:#D50036 }
 
 #secBox {
     width:100%;
