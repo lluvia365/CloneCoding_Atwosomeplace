@@ -65,11 +65,15 @@ body {
     padding:10px 0 0 0;    
 }
 
-#text2 { font-size: 3rem; margin:20px 0 }
+#text2 { font-size: 3rem; margin:20px 0; color:#D50036 }
 
-#text3 { font-size: 2rem;  margin:20px 0} 
+#text3 { font-size: 2rem;  margin:30px 0} 
 
-#text4-1 { font-size: 1.5rem; margin:30px 0 }
+#text4-1 { 
+    font-size: 1.5rem;
+    margin:50px 0;
+    line-height: 40px;
+}
 
 #text4-1>span { color:#D50036 }
 
@@ -77,28 +81,48 @@ body {
     width:100%;
     display: flex;
     flex-wrap: wrap;
-    margin:auto;
 }
 
 .inBox{
-    width:calc((90% - 40px) / 3);
-    margin-right: 20px;
-    height: 250px;
-    border: 1px solid #D50036;
+    width:calc((100% - 40px) / 3);
+    margin:0 20px 30px 0;
+    border: 1px solid #CCC;
+    padding:20px;
 }
 
-.inBox>img {
+.inBox:nth-child(3n) { margin-right: 0 }
+
+.inimgBox { width:80%; margin:30px auto }
+
+.inimgBox>img {
     display: block;
-    width:150px;
-    height: 80px;
-    margin-top:20px;
+    width:100%;
+    margin:auto;
 }
 
 .inBox>h3 {
-    margin:20px 0;
+    margin:30px 0;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
+.inBox>p { 
+    font-size: 1.5rem;  
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+#down { 
+    width:100%; display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dtext { width:40%; font-size: 1.5rem }
+
+.dbox { width:20%; margin:0 20px }
+
+.dbox>img { width:100%; display: block }
 
 
 
@@ -144,7 +168,19 @@ body {
     
     #contentsBox { margin-top:0px }
     
-
+    #text1 { font-size: 1.8rem }
+    
+    #text2 { font-size:1.5rem; margin:10px 0 }
+    
+    #text3 { font-size: 1.2rem; margin:20px 0 }
+    
+    #text4-1 {
+        font-size: 1.1rem;
+        margin:10px 0 20px 0;
+        line-height: 26px;
+    }
+    
+    
     
     
 }  /*----- @media screen -----*/
