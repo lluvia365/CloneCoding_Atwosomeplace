@@ -186,11 +186,16 @@ body {
     .left { left:10px }
     .right { right:10px }
     
-    #joinBox { margin-left: 20px }
+    #joinBox { margin:0; padding-left: 20px}
     
     #joinBox>h2 { font-size: 2rem }
     
     #joinBox>p { font-size: 1.5rem }
+    
+    #agree {
+    padding-left: 0px;
+    padding-top: 5px;
+}
     
     #agree>h3 { font-size: 1.4rem }
 
