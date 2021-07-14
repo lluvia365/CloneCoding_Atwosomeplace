@@ -90,9 +90,10 @@ body {
     padding:20px;
 }
 
+
 .inBox:nth-child(3n) { margin-right: 0 }
 
-.inimgBox { width:50%; margin:30px auto }
+.inimgBox { width:20%; margin:30px auto }
 
 .inimgBox>img {
     display: block;
