@@ -746,16 +746,8 @@ body {
 
 /*---------- 해상도 1100px 이하일때 ----------*/
 @media screen and (max-width:1100px){
-    #inbox5 { 
-        width:90%;
-        height:100%;
-        display: flex; flex-wrap: wrap;
-}
-    
     #imgbox5-1 {
-        width:30%; height:100%;
-
-        margin: auto;
+        width:30%
 
 }
 
