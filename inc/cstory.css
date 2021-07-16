@@ -56,8 +56,14 @@ body {
     margin:60px auto;
 }
 
-#textBox1 {
+#secBox1 { 
     width:100%;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#textBox1 {
+    width:50%;
 }
 
 #text1 { 
@@ -76,6 +82,12 @@ body {
 }
 
 #text4-1>span { color:#D50036 }
+
+#imgBox1 {
+    width:40%;
+}
+
+#imgBox1>img { display: block; width:100% }
 
 #secBox {
     width:100%;
@@ -110,8 +122,32 @@ body {
 .inBox>p { 
     font-size: 1.5rem;  
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
+#boxinBox { width:100% }
+
+.checkBox { width:100%; display: flex}
+
+.checkBox>p {
+    width:50%;
+    font-size: 1.5rem;  
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cirlceBox { 
+    width:50%;
+    display: flex;
+    background:orange;
+}
+
+.circle { width:20px; height: 20px; color:#D50036 }
+
+
+.inBox>p>span { color:#D50036 }
+
+.inBox>.contry { font-size: 1.3em}
 
 #down { 
     width:100%; 
@@ -125,7 +161,6 @@ body {
 .dbox { width:20%;  margin:0 20px }
 
 .dbox>a>img { width:100%; }
-
 
 
 #gotop { 
