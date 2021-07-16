@@ -129,16 +129,24 @@ body {
 .checkBox { width:100%; display: flex }
 
 .checkBox>p {
-    width:50%;
     font-size: 1.5rem;  
     text-align: center;
     margin-bottom: 30px;
 }
 
+.checkBox>img {
+    display: block;
+    width:100px;
+}
 
 .inBox>p>span { color:#D50036 }
 
 .inBox>.contry { font-size: 1.3em}
+
+
+
+
+
 
 #down { 
     width:100%; 
