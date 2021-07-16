@@ -135,6 +135,104 @@ body {
 
 
 
+   
+/*---------- 해상도 1080px 이하일때 ----------*/
+@media screen and (max-width:1080px){
+    .inBox { width:25% }    
+        
+    .caption{ padding:20px; font-size: .9rem }  
+       
+}  /*----- @media screen -----*/ 
+
+
+/*---------- 해상도 1000px 이하일때 ----------*/
+@media screen and (max-width:1000px){
+    .textBox {
+        font-size: 1.2rem;
+    }
+    
+    
+}  /*----- @media screen -----*/  
+   
+
+/*---------- 해상도 930px 이하일때 ----------*/
+@media screen and (max-width:930px){
+    .textBox {
+        font-size: 1.1rem;
+    }    
+    
+    .caption { font-size: .8rem }
+    
+}  /*----- @media screen -----*/  
+   
+
+
+/*---------- 해상도 860px 이하일때 ----------*/
+@media screen and (max-width:860px){
+    .textBox {
+        font-size: 1rem;
+    }    
+    
+    .caption { line-height: 18px }
+    
+}  /*----- @media screen -----*/  
+   
+
+/*---------- 해상도 790px 이하일때 ----------*/
+@media screen and (max-width:790px){
+    .inBox { width: 35% }
+    
+    .textBox {
+        font-size: 1.2rem;
+    }    
+    
+    .caption { font-size: 1.1rem; line-height: 24px }
+    
+}  /*----- @media screen -----*/  
+   
+
+/*---------- 해상도 720px 이하일때 ----------*/
+@media screen and (max-width:720px){
+    .caption { 
+        line-height: 20px;
+    }
+    
+}  /*----- @media screen -----*/  
+
+   
+/*---------- 해상도 650px 이하일때 ----------*/
+@media screen and (max-width:650px){
+    .caption { 
+        font-size: 1rem;
+        line-height: 18px;
+    }
+    
+}  /*----- @media screen -----*/  
+   
+  
+/*---------- 해상도 580px 이하일때 ----------*/
+@media screen and (max-width:580px){
+    .textBox { font-size: 1rem }
+    
+    .caption { 
+        font-size: .9rem;
+        line-height: 16px;
+    }
+    
+}  /*----- @media screen -----*/  
+    
+
+/*---------- 해상도 530px 이하일때 ----------*/
+@media screen and (max-width:530px){
+    .caption {
+        padding:10px;
+        font-size: .8rem;
+        line-height: 16px;
+    }
+    
+}  /*----- @media screen -----*/  
+   
+
 
 /*---------- 해상도 500px 이하일때 ----------*/
 @media screen and (max-width:500px){
@@ -156,7 +254,7 @@ body {
     }
     
     #contentsBox {
-        height: 700px;
+        height: 800px;
     }
     
     #sec1 {

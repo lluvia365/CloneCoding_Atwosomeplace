@@ -172,6 +172,34 @@ body{
 
 
 
+/*---------- 해상도 1120px 이하일때 ----------*/
+@media screen and (max-width:1120px){
+    #logo { font-size: 1.3rem }
+
+}  /* @media screen */
+
+
+/*---------- 해상도 1000px 이하일때 ----------*/
+@media screen and (max-width:1000px){
+    #logo { font-size: 1.1rem }
+
+}  /* @media screen */
+
+
+/*---------- 해상도 830px 이하일때 ----------*/
+@media screen and (max-width:830px){
+    #logo { font-size: 1rem }
+
+}  /* @media screen */
+
+
+/*---------- 해상도 770px 이하일때 ----------*/
+@media screen and (max-width:830px){
+    #logo { font-size: .9rem }
+
+}  /* @media screen */
+
+
 
 
 /*---------- 해상도 500px 이하일때 ----------*/
@@ -183,7 +211,7 @@ body{
     #navInBox { width:100% }
 
     #logo { 
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         width:30%;
     }
     

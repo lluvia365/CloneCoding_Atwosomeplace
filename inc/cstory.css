@@ -134,10 +134,7 @@ body {
     margin-bottom: 30px;
 }
 
-.checkBox>img {
-    display: block;
-    width:100px;
-}
+.inimagBox>p>img { display: block }
 
 .inBox>p>span { color:#D50036 }
 
@@ -204,12 +201,13 @@ body {
     
     #contentsBox { margin-top:0px; padding-left:20px }
     
+    #textBox1{ width:100% }
         
     #text1 { font-size: 1.8rem }
     
     #text2 { font-size:1.5rem; margin:10px 10px 10px 0}
     
-    #text3 { font-size: 1.1rem; margin:20px 10px 20px 0 }
+    .text3 { font-size: 1.3rem; margin:20px 10px 20px 0 }
     
     #text4-1 {
         font-size: .9rem;
@@ -217,9 +215,10 @@ body {
         line-height: 24px;
     }
     
+    #imgBox1 { width:90%}
     
     .inBox {
-        width:45%;
+        width:90%;
         margin:0 10px 20px 0;
         padding:10px
     }
@@ -233,6 +232,9 @@ body {
     .inBox>h3 { margin:10px 0; font-size: 1.2rem }
     
     .inBox>p { font-size: .9rem; margin-bottom: 20px }
+    
+    .inBox>.contry { font-size:1rem}
+    
     
     #down { justify-content: flex-start }
     
